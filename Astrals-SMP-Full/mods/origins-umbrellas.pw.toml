@@ -1,0 +1,13 @@
+name = "Origins: Umbrellas"
+filename = "originsumbrellas-1.5.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nKWFvKt2/versions/j6mO4YuC/originsumbrellas-1.5.6.jar"
+hash-format = "sha1"
+hash = "a5acae1e42c78af849fb54ac35ee6b6c65ede0a9"
+
+[update]
+[update.modrinth]
+mod-id = "nKWFvKt2"
+version = "j6mO4YuC"

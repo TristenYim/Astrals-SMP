@@ -1,0 +1,13 @@
+name = "Slime Origin Remastered"
+filename = "slimeorigin-2.0.2-1.20.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XzJWPW69/versions/yQzTujqg/slimeorigin-2.0.2-1.20.0.jar"
+hash-format = "sha1"
+hash = "9e16d0fa4d642d680a51871c7b2b1100d1ccd3d3"
+
+[update]
+[update.modrinth]
+mod-id = "XzJWPW69"
+version = "yQzTujqg"

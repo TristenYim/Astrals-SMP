@@ -1,0 +1,13 @@
+name = "woodwalkers"
+filename = "walkers-5-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sr1HeD8z/versions/qH29u5Of/walkers-5-fabric.jar"
+hash-format = "sha1"
+hash = "e2a2dc4d9cb4706b976cd2090068f36277cfce3d"
+
+[update]
+[update.modrinth]
+mod-id = "Sr1HeD8z"
+version = "qH29u5Of"
