@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "origins": [
+      "origins:human",
+      "lunyx:avian",
+      "origins:arachnid",
+      "origins:elytrian",
+      "lunyx:shulk",
+      "extraorigins:truffle",
+      "extraorigins:floran",
+      "lunyx:feline",
+      "lunyx:enderian",
+      "ursis:snow-ursian",
+      "inchling:inchling",
+      "lunyx:merling",
+      "lunyx:blazeborn",
+      "lunyx:piglin",
+      "lunyx:kitsune",
+      "lunyx:phantom",
+      "apocalypse:hexblade",
+      "origins_vampire:vampire",
+      "mythic:phoenix",
+      "slimeorigin:slimecican"
+    ]
+}

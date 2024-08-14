@@ -1,0 +1,19 @@
+
+{
+	"powers": [
+        "lunyx:end_spawn",
+        "lunyx:slender",
+        "origins:throw_ender_pearl",
+        "origins:water_vulnerability",
+        "origins:pumpkin_hate",
+        "origins:extra_reach",
+        "origins:ender_particles",
+        "origins:damage_from_potions"
+
+    ],
+    "icon": "minecraft:ender_pearl",
+    "order": 0,
+    "impact": 2,
+	"name": "Enderian",
+	"description": "Living alongside the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water."
+}

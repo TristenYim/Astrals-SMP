@@ -1,0 +1,18 @@
+{
+	"name":"Class",
+	"replace": true,
+	"order": 10,
+	"enabled": true,
+	"origins": [
+		{
+			"condition": {
+				"type": "origins:origin",
+				"origin": "apocalypse:hexblade",
+				"layer": "origins:origin"
+			},
+			"origins": [
+				"lunyx:nostalgic"
+			]
+		}
+	]
+}

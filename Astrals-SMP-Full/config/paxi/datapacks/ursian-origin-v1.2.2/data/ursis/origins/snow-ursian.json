@@ -1,0 +1,18 @@
+{
+	"powers": [
+        "ursis:furred",
+        "ursis:mighty",
+        "ursis:tough",
+        "ursis:strong",
+        "ursis:swimmer",
+        "ursis:paws",
+        "ursis:ravenous",
+        "ursis:nofreeze",
+        "ursis:size"
+    ],
+    "icon": "minecraft:snow_block",
+    "order": 1,
+    "impact": 2,
+	"name": "Snow Ursian",
+	"description": "Although the original ursians are no more, their icy cousins can be found in the north. Snow Ursians are powerful melee fighters adapted to frozen terrain."
+}

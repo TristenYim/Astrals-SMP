@@ -1,0 +1,13 @@
+{
+	"powers": [
+	],
+	"icon": {
+		"item": "minecraft:light_blue_wool"
+	},
+	"unchoosable": false,
+	"order": 10,
+	"impact": 1,
+	"name": "Nostalgic",
+	"description": "Fixes Hexblade nostalgia."
+}
+//TDoggi says hi

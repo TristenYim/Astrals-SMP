@@ -1,6 +1,3590 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bettercombat/client.json5"
+hash = "e8064b014f9e01c27b63877f98410dd166f79b562aabb0d8fc365aeef2616902"
+
+[[files]]
+file = "config/bettercombat/fallback_compatibility.json"
+hash = "66d47479bcb546c957e261bd6f8c8a2d92f812a01b63ddcd023e54e37e43dd4f"
+
+[[files]]
+file = "config/bettercombat/server.json5"
+hash = "8a3ca0cbeb543de63d478c7aaf065c0244a8b5d4face1c0a0124d1d3a1790c12"
+
+[[files]]
+file = "config/enchancement.json"
+hash = "292b8ae543feb37897d69cdeda40fbed281d3610b975301aeaa61a270169db90"
+
+[[files]]
+file = "config/enchancement2.json"
+hash = "2e738380f18e6cade3211fc51bbe26b6db4b33aded5d2335749181e1d5ecdfa6"
+
+[[files]]
+file = "config/fwaystones/config.json5"
+hash = "8b2f045ecc9b922b09a38b1c48e1f4156618fa047fdaa38a4d22502213890372"
+
+[[files]]
+file = "config/identity.json5"
+hash = "8c412b974f2a7cafb679b861b87450977280b7065bf48ae2b621a2faae9417bc"
+
+[[files]]
+file = "config/lithium.properties"
+hash = "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e"
+
+[[files]]
+file = "config/origins_server.json"
+hash = "ac704d8a86a1f120f2b68a2e91367dcad07395fcea5d90eecec72b61dc2c942c"
+
+[[files]]
+file = "config/paxi/datapack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/adventure.json"
+hash = "43cc8fdcf12b30a533ba3870021575c62b864081b926441eb3d5a7c246e319a9"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/anglerfish.json"
+hash = "f2b75aa973a8a460fb413cf3802bd90817b42d46f2664c87d4eb9b0e7bec6372"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/bold_muddy.json"
+hash = "76bc8033aeab4cb4fdd776b902f156498e1c1697011ce6d0dee5145c6b1a9162"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/clownfish.json"
+hash = "56e76c0955ef794f66460f4cdf2cc62bf1d7ab598b605eaa132efc429bd656f3"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/corals.json"
+hash = "169d859e647466b42313b134c5850eec331fe484bef5d3ebf95c6fcdff8ec286"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/depths.json"
+hash = "3f50737ce34537b5944f7bb997495e29cc0ea21fdc68167c9b8245ad89e02eac"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/distant.json"
+hash = "34179888f9bfa9ae1062ce82abd7a993683721ee0d5a3c6703dfe9997a320beb"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/dream.json"
+hash = "99582c51ebfb08998edc4643491ae8c464094c501db16dafa8849ef097584043"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/fortune.json"
+hash = "249304ff2bb68acaa87dcbda907272afbbf06f333edba233906b17f347761441"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/polar_bear.json"
+hash = "0f70943faabf37080bdb268cedf1d2e3d500f9f45d34fb8e83b4eb7f78985221"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/poyo.json"
+hash = "3593e2d0a471e6eb4ccc59115160e72ecd8ea89e3e9aa6fbdfc708c05d78af76"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/rick_roll.json"
+hash = "7cfeef3b02661c6de2387182d87cfd0908bdf1d55ee4d492f014bb8ac0007ac4"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/sea_cucumber.json"
+hash = "c87ec9cc1f5efb6c954d5a3102bd9dcda262edf9f7e0940b428d5ceabfb7eae9"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/seahorse.json"
+hash = "db44344adecef156800d9a9aa00773476b24ef33f91f2a83c84c8729863b7a7d"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/sunshine.json"
+hash = "31c678305075a4020eace7b1fd408c04346b48b2cc8c3637ad06f6bf0e46a7a4"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/the_creepers_code.json"
+hash = "624d13657cdbe360fdc9c9b55c0a0886ff5b3c2275b29635d59b8f273c80d9a7"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/turtle.json"
+hash = "f8df5261eb3d741f633de11c01053eec0a08c1404f1f82c2457d8705f445dbce"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/hybrid-aquatic/sea_message/vampire_squid.json"
+hash = "80bae59e17eb6654e1ba7b3ab472a63ef603a9d6d1fa839d7c5c6a874fcea9fc"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/crab.json"
+hash = "aac3e25a469ac167a1073f1f6d1ba50f900a26bf48a2660bfc250edc04a811f3"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/critter.json"
+hash = "b266852e4b9cd4118718052d364660e1e6ebf5923aeaec6de421b66494d6c2bb"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/fishes.json"
+hash = "8699ad61a1fc710e2b5eeae72a9a73d013ab37e186372ff7b58ffc5d48f053e5"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/jellyfish.json"
+hash = "3339991a8d2ac61d6c26215558a078ec2b5fee34d91435917c24a41472d37a40"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/large_prey.json"
+hash = "b0651dc8f58ad9d90714247ae1093971fe49a0edd7d453a6decc45b009a87baf"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/medium_prey.json"
+hash = "2344afb7b266a6baff52caf9cd8aa1d37543714361c3294eac4b350a3ca468ad"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/basking_shark.json"
+hash = "079b89f1b95b95b5e065eb3cd0dd9024f07cfb7dff103fc1f136f29812692a47"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/bull_shark.json"
+hash = "c174a06d3a4e80eaa02a2eacc13680d4905c2a6b9625dc37f1ea64cc47291fa5"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/frilled_shark.json"
+hash = "3eed4929a53ee48c615fce329150305a100cb920e433639c12cb5168d09c2fc1"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/great_white_shark.json"
+hash = "c174a06d3a4e80eaa02a2eacc13680d4905c2a6b9625dc37f1ea64cc47291fa5"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/hammerhead_shark.json"
+hash = "e03ac91a71a548f7532d1a674ed9da477df37b089ff28767e652f935ef688bf1"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/squid.json"
+hash = "e4e99f1a87bf722c1da99ef675295a97fa78a96c4189d6658ba492401f7577ce"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/stingray.json"
+hash = "3cc3c785fb1738ca058251aaa40c2717d0fac86be3bf8d30754f4d241a4a6229"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/thresher_shark.json"
+hash = "3eed4929a53ee48c615fce329150305a100cb920e433639c12cb5168d09c2fc1"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/tiger_shark.json"
+hash = "c174a06d3a4e80eaa02a2eacc13680d4905c2a6b9625dc37f1ea64cc47291fa5"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/prey/whale_shark.json"
+hash = "079b89f1b95b95b5e065eb3cd0dd9024f07cfb7dff103fc1f136f29812692a47"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/sharks.json"
+hash = "a1303672d6643b32341f2e901f867191405706bc90ab0b956dd74af6b23e13e3"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/shrimp.json"
+hash = "226c66993369c629283dba8b6734a2976531de4a2ea4c9fffe37352756c30186"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/entity_types/small_prey.json"
+hash = "3323a8fac1b181dfe09820f054e8d137c32260212939ac576009769e941f8b3c"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/atolla_jellyfish_spawn_biomes.json"
+hash = "9f162b3b98a0bee08f03187fad6de0f8ff0e1a7401a1b36187ed468899cf390a"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/cauliflower_jellyfish_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/coconot_crab_spawn_biomes.json"
+hash = "5296042e13f191979198a718cdc40d9c7568d8043fba0dc055cf0d4d2453e9e0"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/crab_spawn_biomes.json"
+hash = "fce7d542cc13ce8b1a6fc61643b91328747ef4304ec3d57142afde50696b129d"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/fiddler_crab_spawn_biomes.json"
+hash = "52d364f7f4095702661c6a7c6b4af28e65ca6ef5fd6137f49cc58669084847d0"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/flower_crab_spawn_biomes.json"
+hash = "e22b987f57a095ffb30aae1a50fe06ab672797a98105ece4d56fb9a6d6417048"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/fried_egg_jellyfish_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/ghost_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/giant_isopod_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/horseshoe_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/lightfoot_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/mauve_stinger_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/sea_nettle_spawn_biomes.json"
+hash = "749e87a957d22228d2a097874237abaca83497f7fd803f9d2f3d5157a74f2c7b"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/spider_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/vampire_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/tags/worldgen/biome/yeti_crab_spawn_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/configured_feature/anemone_patch.json"
+hash = "a4535f905eac75cce6bdcc9b52c9cb1a6e8dcae75969756dd974468ee0714f15"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/configured_feature/giant_clam_patch.json"
+hash = "6d7d19bf10ff6953bce5bea5370aa1dba5e94900dce44b555457001a53e23f60"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/configured_feature/hydrothermal_vents.json"
+hash = "310261ab56b40b66c7b6dd4bb0e8e9403226df6ff8c17ccdfc6967cbb37e42d0"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/configured_feature/message_in_a_bottle.json"
+hash = "00ee8bcbe8a56834ecd02b15b94b80a1ce75d68e3661f94d1e2dbf0fa4e89137"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/configured_feature/tube_sponge_patch.json"
+hash = "b37cd0b112dc233f9ac013c009ef62af4c3300d561f535cfe1002a917708ff0a"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/placed_feature/anemone_patch.json"
+hash = "fbdc276750a83f1f7ad5abeb2d847f505530b409c3d29cbd4dc72163a383562a"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/placed_feature/giant_clam_patch.json"
+hash = "d7386de0161a8404577572e53c536dfc865544c7c3b3b50f3209fd18d7e0232b"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/placed_feature/hydrothermal_vents.json"
+hash = "0551305eadb986bc863946e06fd7d088f1697eb1c3632b34f5211d1217859399"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/placed_feature/message_in_a_bottle.json"
+hash = "b6793b44979f7abb4998a3ad0f7f95e71915956dd9e18b861f4da0f4de38fc1e"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/hybrid-aquatic/worldgen/placed_feature/sponge_patch.json"
+hash = "117a7bb1df0b4c92e201e75fd2c0fc6f7418e31446837591f97115a5fa60eae4"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/inchling/origins/inchling.json"
+hash = "c1788f12fc5fe9b2268b17ed4b72f64783420d114affcf79365923ede7d1e39e"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/inchling/powers/sugar_rush.json"
+hash = "7ddb593e86a8f196397c8451cf8db10975be0c860599edf9577891ffd82f6b3b"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/functions/loop.mcfunction"
+hash = "86230dc35416290a2095acc8e0361b7180f507cc3ea0a26608eb4cd73427c67e"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/avian.json"
+hash = "74a42763b7d554df8c2eb2a6b3bf984d84035d5eec59c721a46cd91a5f8dd6c0"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/blazeborn.json"
+hash = "5d6543b58d523f320aeecd2b8931841374675b4ed5928ba59d32a9c9c1fc6c26"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/enderian.json"
+hash = "e8615715f8597d7a1c835585974f20b9a78c6fb654a4b043ff7fe39985fb2c94"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/feline.json"
+hash = "32b101297e27b09e02edc57c1484b92eed9fc0ba1ba7c75ba380b9d903a90139"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/kitsune.json"
+hash = "cca1427e2ad9ad075614c13d334a6caa44968ac81d7f065925cb5b3074f512a6"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/merling.json"
+hash = "da7e09a0d146645e8d291bf88c403090f9390195cf0888ae9749552427868f08"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/nostalgic.json"
+hash = "372a52be10a627cd0ee5275870b8b1143154ae57a371aed0a698dbb23e1bfed0"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/phantom.json"
+hash = "e35b3bb4c3439aa64a4750f7ca10f1fd8924c5019340478d3d4dd0c45fc3ca9d"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/piglin.json"
+hash = "4c80610361d5eeb2090d2e818a648bcc40839603c945243b780a69bd2ffcf05b"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/origins/shulk.json"
+hash = "c6c2beea1d4e8ee57c5661de677befd63468fb288a9b2e091f49609a65676f87"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/anti_suffocate.json"
+hash = "b467cf21d780ad7f97c677b9f84e006949f4e80f174bab2ab00167a50d509a67"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/aqua_affinity.json"
+hash = "4de8a74b0e06d842257f9fc3647289020860b0b2fbc5dc02c9d2b0d11a093365"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/blind_phasing.json"
+hash = "67bf63fbc18f30be936322b65d53ef949db1099f2dcf2c226e974dba41d87296"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/blind_phasing_P.json"
+hash = "413dc38ea56ad5d2079615e4f5b52f099a4bc4324379d95ae88d09d09f220cb8"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/can_flap.json"
+hash = "cfd3ff897833f6f425aa727502bf891729be0b81b698780e858065c4fd3ce141"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/cat_vision.json"
+hash = "01b4a7bfc438911e9df6157a17d410ec9b61fbeeb4cecfd6b219770024eeaff2"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/end_spawn.json"
+hash = "ae070b8b530277289b30885f5b729ddc265d19631a78d9ae56d56032992f9ab2"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/flap.json"
+hash = "bad32de23ee1c26020661255a7d27cfa23ef6ddb8266abbb6645c47b38edaefc"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/golden_food_worship.json"
+hash = "665a028df5d6b8b70820e7de7188aad340c823e0bba6e949c0d6b987211cb46c"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/lava_vision.json"
+hash = "00fc8178f73781420d4d440409723ad8673ffbb7abcce8f5026725e13b7aeade"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/phantom_overlay.json"
+hash = "498542daf57c5ba62fb595f394ed1ce763524e5e73ab8ffd2a7eaf5c0840c9b7"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/shiny_armor.json"
+hash = "643dc7997daf8be15f49e5a8cbd419348762856e3ac4aabea0c2129df0ff4b97"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/silent_fall.json"
+hash = "39c6b4f9c1ab890c1fb1ea07d6940dd79dc968c2cd3bf030b294a53bbf61be06"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/slender.json"
+hash = "4c96bf5b8dc6fe614bc5e266229f22566884aad4af3823400371d673df6ea110"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/slow_atk.json"
+hash = "dbf320b960c0d766c2b08e22fc035dc8cbcc76cd41c9c170bb81ab8beca2417f"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/small.json"
+hash = "2a13575e37113efb77ea0ef14cd7a681296e6b103ec8e1f59a4cce711813df28"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/stout.json"
+hash = "c245db808cc63a93d3d4b2fdd25d3be859a6d77e69e1269832618ecb41199dc8"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/strong_arms.json"
+hash = "7183719f7e4f9e96e0ab53442721157a5955b3def95a35d973695b8283f19bf1"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/strong_arms_speed.json"
+hash = "e903ce11ef8a2e205b961ff79e08cb841b0bd61cf7e702e52801beef3e8fb98b"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/powers/weak_arms_2.json"
+hash = "a7ec5baad9a489f080b2d2030f87edd555845af43e44c7b85c8c5b80d7a09324"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/tags/blocks/natural_stone.json"
+hash = "1ddf783313065c2ca0252c32ebd8a50a119a242c6c55ad1fa6a2aacdbd65e2dc"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/tags/items/golden_food.json"
+hash = "071a7e0084fee0b6e629da16499060ada9d2bcff65205fcd8348adf095928e1a"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/lunyx/tags/items/shiny.json"
+hash = "eaa5c17becdee7c314c398b3f44a942e0e280e5b08f7c0f0e279235ab1eaeae8"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/minecraft/tags/functions/tick.json"
+hash = "e33f165605165f8831374f1f6e92d38b0a3838b65cf16d49a9d8b76ff09c1aa4"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/origins-classes/origin_layers/class.json"
+hash = "d2758315464db1c63806e0b114d1393f138e053607a14b9d4cd83be818ded7f7"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/origins/origin_layers/origin.json"
+hash = "249f3044aae002c0603baed1967fc426e2e1c71620faacabb06c02affc276b6f"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/origins/tags/blocks/unphasable.json"
+hash = "dede4d1744f3bd56b20802fc50dde2149064ddff54c302de1ba26840566b9cad"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/data/origins/tags/items/shields.json"
+hash = "2d9377c9b738b22392a5210d86c3a365974ee9b9cd9c8ffe4d6dd8bb1706c7e9"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/astral-compatibility-v2.0.1/pack.mcmeta"
+hash = "cec0ee00979adcb69d3cbfd36bdfe86e7f69acb44b434a22d38619c27741ed7c"
+
+[[files]]
+file = "config/paxi/datapacks/1nuhuh/watchers-compatibility-v2.0.0.zip"
+hash = "8e4a0bfc62e809a3dde369fe85d7dc1949afddb15d19ec2abb781e2db40b0277"
+
+[[files]]
+file = "config/paxi/datapacks/afk display v1.1.3.zip"
+hash = "1f5702d7940b23c88981659028f7f01c00fa9940a904b8c2d109ede901defbeb"
+
+[[files]]
+file = "config/paxi/datapacks/armor statues v2.8.4.zip"
+hash = "35e41cf5c245614788a969f07c4e3d100e14a5ecb78499ae8e7c7a8ca647cc11"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/adventurez/loot_tables/entities/blackstone_golem.json"
+hash = "7b0661e8a09e932feea2091588f7fe5e59da5d6fc83fd9530945e6bf1b54e295"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/adventurez/loot_tables/entities/mini_blackstone_golem.json"
+hash = "ed97e2a88f47269b7d46014a8919f4c355568358520bc576492774eda896533b"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/adventurez/loot_tables/entities/soul_reaper.json"
+hash = "d05af8434370d508d1be7323e32dc7073cc3f0053061d5b2651c2a89cfb58fd3"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/inchling/origins/inchling.json"
+hash = "c1788f12fc5fe9b2268b17ed4b72f64783420d114affcf79365923ede7d1e39e"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/inchling/powers/sugar_rush.json"
+hash = "7ddb593e86a8f196397c8451cf8db10975be0c860599edf9577891ffd82f6b3b"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/functions/loop.mcfunction"
+hash = "86230dc35416290a2095acc8e0361b7180f507cc3ea0a26608eb4cd73427c67e"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/avian.json"
+hash = "74a42763b7d554df8c2eb2a6b3bf984d84035d5eec59c721a46cd91a5f8dd6c0"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/blazeborn.json"
+hash = "5d6543b58d523f320aeecd2b8931841374675b4ed5928ba59d32a9c9c1fc6c26"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/enderian.json"
+hash = "e8615715f8597d7a1c835585974f20b9a78c6fb654a4b043ff7fe39985fb2c94"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/feline.json"
+hash = "32b101297e27b09e02edc57c1484b92eed9fc0ba1ba7c75ba380b9d903a90139"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/kitsune.json"
+hash = "cca1427e2ad9ad075614c13d334a6caa44968ac81d7f065925cb5b3074f512a6"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/merling.json"
+hash = "da7e09a0d146645e8d291bf88c403090f9390195cf0888ae9749552427868f08"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/nostalgic.json"
+hash = "372a52be10a627cd0ee5275870b8b1143154ae57a371aed0a698dbb23e1bfed0"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/phantom.json"
+hash = "e35b3bb4c3439aa64a4750f7ca10f1fd8924c5019340478d3d4dd0c45fc3ca9d"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/piglin.json"
+hash = "4c80610361d5eeb2090d2e818a648bcc40839603c945243b780a69bd2ffcf05b"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/origins/shulk.json"
+hash = "c6c2beea1d4e8ee57c5661de677befd63468fb288a9b2e091f49609a65676f87"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/anti_suffocate.json"
+hash = "b467cf21d780ad7f97c677b9f84e006949f4e80f174bab2ab00167a50d509a67"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/aqua_affinity.json"
+hash = "4de8a74b0e06d842257f9fc3647289020860b0b2fbc5dc02c9d2b0d11a093365"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/blind_phasing.json"
+hash = "67bf63fbc18f30be936322b65d53ef949db1099f2dcf2c226e974dba41d87296"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/blind_phasing_P.json"
+hash = "413dc38ea56ad5d2079615e4f5b52f099a4bc4324379d95ae88d09d09f220cb8"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/can_flap.json"
+hash = "cfd3ff897833f6f425aa727502bf891729be0b81b698780e858065c4fd3ce141"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/cat_vision.json"
+hash = "01b4a7bfc438911e9df6157a17d410ec9b61fbeeb4cecfd6b219770024eeaff2"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/end_spawn.json"
+hash = "ae070b8b530277289b30885f5b729ddc265d19631a78d9ae56d56032992f9ab2"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/flap.json"
+hash = "bad32de23ee1c26020661255a7d27cfa23ef6ddb8266abbb6645c47b38edaefc"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/golden_food_worship.json"
+hash = "665a028df5d6b8b70820e7de7188aad340c823e0bba6e949c0d6b987211cb46c"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/lava_vision.json"
+hash = "00fc8178f73781420d4d440409723ad8673ffbb7abcce8f5026725e13b7aeade"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/phantom_overlay.json"
+hash = "498542daf57c5ba62fb595f394ed1ce763524e5e73ab8ffd2a7eaf5c0840c9b7"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/shiny_armor.json"
+hash = "643dc7997daf8be15f49e5a8cbd419348762856e3ac4aabea0c2129df0ff4b97"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/silent_fall.json"
+hash = "39c6b4f9c1ab890c1fb1ea07d6940dd79dc968c2cd3bf030b294a53bbf61be06"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/slender.json"
+hash = "4c96bf5b8dc6fe614bc5e266229f22566884aad4af3823400371d673df6ea110"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/slow_atk.json"
+hash = "dbf320b960c0d766c2b08e22fc035dc8cbcc76cd41c9c170bb81ab8beca2417f"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/small.json"
+hash = "2a13575e37113efb77ea0ef14cd7a681296e6b103ec8e1f59a4cce711813df28"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/stout.json"
+hash = "c245db808cc63a93d3d4b2fdd25d3be859a6d77e69e1269832618ecb41199dc8"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/strong_arms.json"
+hash = "7183719f7e4f9e96e0ab53442721157a5955b3def95a35d973695b8283f19bf1"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/strong_arms_speed.json"
+hash = "e903ce11ef8a2e205b961ff79e08cb841b0bd61cf7e702e52801beef3e8fb98b"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/powers/weak_arms_2.json"
+hash = "a7ec5baad9a489f080b2d2030f87edd555845af43e44c7b85c8c5b80d7a09324"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/tags/blocks/natural_stone.json"
+hash = "1ddf783313065c2ca0252c32ebd8a50a119a242c6c55ad1fa6a2aacdbd65e2dc"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/tags/items/golden_food.json"
+hash = "071a7e0084fee0b6e629da16499060ada9d2bcff65205fcd8348adf095928e1a"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/lunyx/tags/items/shiny.json"
+hash = "eaa5c17becdee7c314c398b3f44a942e0e280e5b08f7c0f0e279235ab1eaeae8"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/minecraft/tags/functions/tick.json"
+hash = "e33f165605165f8831374f1f6e92d38b0a3838b65cf16d49a9d8b76ff09c1aa4"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/origins-classes/origin_layers/class.json"
+hash = "d2758315464db1c63806e0b114d1393f138e053607a14b9d4cd83be818ded7f7"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/origins/origin_layers/origin.json"
+hash = "249f3044aae002c0603baed1967fc426e2e1c71620faacabb06c02affc276b6f"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/origins/tags/blocks/unphasable.json"
+hash = "dede4d1744f3bd56b20802fc50dde2149064ddff54c302de1ba26840566b9cad"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/data/origins/tags/items/shields.json"
+hash = "2d9377c9b738b22392a5210d86c3a365974ee9b9cd9c8ffe4d6dd8bb1706c7e9"
+
+[[files]]
+file = "config/paxi/datapacks/astral-compatibility-v2.0.2/pack.mcmeta"
+hash = "cec0ee00979adcb69d3cbfd36bdfe86e7f69acb44b434a22d38619c27741ed7c"
+
+[[files]]
+file = "config/paxi/datapacks/bat membranes v1.0.4.zip"
+hash = "3d223f15c9f11daf54e69dc3c24b7bba2a76b8371c2c93ab763db2068830c8a0"
+
+[[files]]
+file = "config/paxi/datapacks/cauldron concrete v2.0.6.zip"
+hash = "b0096c09ff7f2bc1db9eaca186c7ed533c37c90ddd1e2d221a0e16ab22e6a682"
+
+[[files]]
+file = "config/paxi/datapacks/cavernous-r-v2-0-1.zip"
+hash = "48706744c2b1a620b2e643cb4b91cfb7e4e60cf0e2377c99115c023b1b56c059"
+
+[[files]]
+file = "config/paxi/datapacks/double shulker shells v1.3.3.zip"
+hash = "542e94a8f5c215fd76915aad253ad6dbdeb19bd942022adcb4a91eb7e0b1456d"
+
+[[files]]
+file = "config/paxi/datapacks/eldor.zip"
+hash = "8d05a97198c90204df47e5a5b96f7d9335621cc4c3d7b9c4dd4ab3c782b7db4a"
+
+[[files]]
+file = "config/paxi/datapacks/extrarecipes.zip"
+hash = "c72306ec76f1a5ac29fdcaae64bdb555385aed89c39ea2a1410f7c725ad3efde"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/attuned_teleportation_a.mcfunction"
+hash = "0dbca4832af7b287cfc453b864689aa9a032b99d9bda384c1870bca5ca7db4aa"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/attuned_teleportation_b.mcfunction"
+hash = "be8ad5d0d517aaf452eae4d814ba2c4c4fb6d60b5d5a8dfdb9e9e356813f3b75"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/find_pair_a.mcfunction"
+hash = "30f943689f5e3fac369fd2c1c4a14ef2450f895f2b4bf32286b2e780095ff7c1"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/find_pair_b.mcfunction"
+hash = "bf9b60d83624bd55af20794b3a4304fb9610f4a829598fcc7db43151c3457cb6"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_give.mcfunction"
+hash = "7e5e6f08c02f8ba194191508dc04fc92c663dddb2b21104197170e078b7e8dab"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_spectate.mcfunction"
+hash = "2d980a6324eb28229a2c37d3a7720493e6064e34e3df0b9d3e6ebbc12b82d8c1"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_spectate_no.mcfunction"
+hash = "23deabebf0f4c13589b54b8888ffc033a2ccf073ac1bd7d4a3bfd1744ced58ea"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_spectatetrigger.mcfunction"
+hash = "074564acbaf51c5910f8926ea3e829eb28cc19a053a24422b8488d1f09f11af2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_spectatetrigger_second.mcfunction"
+hash = "0f6a5e0b555e029447b47d8b33e49f1fadd880e9a93de8d1fb65a01e1d12106a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_waypoint.mcfunction"
+hash = "9c511aa9be4c97dc0a6098b0aa7ef448853245f5663980ad2b1ae2585e691adc"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/hexblade_waypoint_tp.mcfunction"
+hash = "1241982b7bc4782dd620e2521d597988ce44e00e980005ecd5626dc737d1a53e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/init.mcfunction"
+hash = "af326a509b0f9b0fbfbbb70418e5a6f7ec55d569102313c5c3da70de92e36672"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/loop.mcfunction"
+hash = "74d659bc1c38be13e93c4ec74002626c05bf34d38505ea5114a6d22ba5a9158c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_absorption.mcfunction"
+hash = "36d0bc52ef1598a6fde77d1f66ab5dcfecbc239c840bf857e501cb9193c9f233"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_badomen.mcfunction"
+hash = "699ea6fbfac82e1a039fbf3a706ccb5a36d407d6346b722451d70751801b1401"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_blindness.mcfunction"
+hash = "621bd85c004beebee255815a14f77cfacbdbb80ac901b17eb643586bd8e37787"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_conduitpower.mcfunction"
+hash = "dba0a10911472f5a02e695b2e129c96fe42b1597f8d6b83d543f72bf7459123f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_dolphin.mcfunction"
+hash = "1776beaff855ea1649604b9a9410e0cd0a0ec2ac0be25ffeb7d5454e1c05b2ca"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_fireres.mcfunction"
+hash = "1a42f5a2a3051c4010b7c2c77d8d1f03bf499d20a4e34a794ee8a34a0d3855ea"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_glowing.mcfunction"
+hash = "aed500d5e854e923a6b8f2c7712fee8da7b0b04d3156370dfeed669128ac1f59"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_haste.mcfunction"
+hash = "7265dcc40a5b8e59225aa007845505f56bb4a557ad467e085feadf020af4f5f1"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_healthboost.mcfunction"
+hash = "2c2908e33ce8b111fea7ba9d35890ceecf51ae7b9e9c7854a9ae0a432010c444"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_herovillage.mcfunction"
+hash = "56b080541f9a16e69f38fcc7ca33f6500f79ffe04a1d6a48d78872be085ea146"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_hunger.mcfunction"
+hash = "aa957ffa299a8c1091c202985041a590a2d6085443da522196a1bb971f1fb07f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_invisibility.mcfunction"
+hash = "405ded1db80e1a302353b6b7b11607b3048c9fb9cd8c09ab4cc26daf4540722b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_jumpboost.mcfunction"
+hash = "e4b3b00b37c8242d87d52d8f72ab1735c35efc3b27797f3d8bdd7e096316c73e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_levitation.mcfunction"
+hash = "b6d5420f84227842d9effb3bf63ab070eb08f31a5115aae498fd3cf6abda4a5b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_luck.mcfunction"
+hash = "e6554788f4837d77536b83dfd4df5d8d41022d3f2a4e6fa2992429dbd97afebb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_miningfatigue.mcfunction"
+hash = "63b485218d9aaf68e66bbfd10b6c4edf014b25f0f8b6966f02196a7dbf890600"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_nausea.mcfunction"
+hash = "963e6fb81106dc7b4ffdc7ecec3c33ebbcc7c24da280de8fc39845bd6df035a5"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_nightvision.mcfunction"
+hash = "a546629d4981e7bc4da1d123ed6d5230e2170a4d64ec8fb852e95b71fb82535f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_poison.mcfunction"
+hash = "5ea6215ab1058a0b56d6f02db901c92e9215a77effb4fe0c78bd9ab28353933e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_regeneration.mcfunction"
+hash = "cf43c86b602257073e2fc178641793eab665d4f5550d01eb74fc9a3f1f011481"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_resistance.mcfunction"
+hash = "272aaf3bea3f30f67f4f6401d7331b931c6cbbb91a02fbd6bd50b4aa28731af4"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_saturation.mcfunction"
+hash = "b27710e69f3d215dc59d66a4ce67b1681f29653141d5ed5b2bfb5144b4fa9799"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_slowfall.mcfunction"
+hash = "d13eff90e1bed8f347b0bcb19437f9a437b837e0e906f54c80805db01f1fc5e5"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_slowness.mcfunction"
+hash = "f90e2c96eecbb675ecf9125a3030a265a86d94ccd98b7e473c18e2898845d910"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_speed.mcfunction"
+hash = "61de84c5f1c0929f0ae34d1e1a187ee6fb8f4482df1b90b9b83a95438eb939eb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_strength.mcfunction"
+hash = "0fbf142be064be57089a5ab3c56c2b282055171c97320166b670f002dfc5653d"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_unluck.mcfunction"
+hash = "399c288eda3e72ac23f27eb0e9406005fd95105f64c1fe524b0bb9281aca0388"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_waterbreathing.mcfunction"
+hash = "97338b710a84836441e9b53a2097b4aefa379c4f42f97707364ea2adc99f5462"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_weakness.mcfunction"
+hash = "ce496ec2489d15f010e8830bc15034a0e631984d710743e7a2bb41aed4f39afe"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/s_wither.mcfunction"
+hash = "654bf7795de1e164aaddf629669f961419acc42bcc1896ba582a8b84ef3b7351"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/shard_give.mcfunction"
+hash = "9446fa87ff4788abf9d3dba2c45ede3ee00a5d94abfc86b99fac1ec5851e13c2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_ddd_give.mcfunction"
+hash = "90b8d7a63dbb170950b9a0916bc014a9a7000d9bdd29bc184621fcb75bcc4a3b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_fff_give.mcfunction"
+hash = "fff0492053a85c1a6e3750a8c39f1921d672e3ceda4b48d244a1eb698b206c46"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_sagacity_give.mcfunction"
+hash = "2335292735f5f1908a8bea2e79825ddd0a7d22e38929b11b13fb6b5cbdc6ebb5"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_sands_give.mcfunction"
+hash = "5729feead68dbab1a13d7a1d70106b82e0c19515c044195038a53cae2695b23d"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_scrying_give.mcfunction"
+hash = "6e1441be1532febad1394c10ec34625cfc7c21aaf5063c888a47a4a962fd701d"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_seas_give.mcfunction"
+hash = "2577c46f2d9cd2a70e6f5842391b624f3aad6853cdebecf429bc6f805f8708ea"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_seething_give.mcfunction"
+hash = "629e89e1aed6891180db954ec62031dd0941210051fe52a5fa849d9ce352ffeb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_sight_give.mcfunction"
+hash = "5d54b3cf0d7a4074b0c9ec1476137db2fe4f3cc00cdfe9ec612d14e4094cbd4f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_skies_give.mcfunction"
+hash = "03b74a8625d562933f15699bd0b06959a0f292f04c45d49c8f1129345bd7b8ea"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_smiting_give.mcfunction"
+hash = "1345438a1ba3170d231bcfe7bec28a26fea302d85addd17fa43c17ee82d69c82"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_sss_give.mcfunction"
+hash = "2a51c33d26b8216f8a34ef9a9dc6bf9015827a2f8d8600812f900448643fcbb2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_sundering_give.mcfunction"
+hash = "cc98d6762e7f48ff0b16bed2353d8254a359e4194fdbb2a1d3a6d7c718432bf7"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sigil_unnamed_give.mcfunction"
+hash = "bbda9b70ab6f343cf4809d4344ebf387ea116e637b7f852df2c4d7eb0bbecbcc"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/sss_waypoint.mcfunction"
+hash = "08744f25b5cf380f9fdf7be861c0bdeb937a8932d47a632c331a383ed216ada5"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/absorption.mcfunction"
+hash = "050142181948672e7b3643c1ac379fa23be61277617995bbb870f0952e4018a3"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/fire_resistance.mcfunction"
+hash = "7b4d506716b696dddc0d8f57a6b5fde7163cc344d22d2e42242335aebfd0b8e2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/haste.mcfunction"
+hash = "b1d98cd0e115a58de475de7bb198de67134ef3b25e75c481d3cd6b4410595f02"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/health_boost.mcfunction"
+hash = "47363e385dca15754f0b078cf98ef219404671e7eb109e58013cba2372567579"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/main.mcfunction"
+hash = "f22bdec58216febf098104f2a08a979cd06e69bd2262db7d9872c4aab8a406be"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/regeneration.mcfunction"
+hash = "25edf8c1e875c49968bab76281a8d4e810fbd9c70ef8d2f0de2e3c4aaafc03b7"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/resistance.mcfunction"
+hash = "68f4f31fc74d8ec9e3e2502014cea43e747a49a844016ae69840256def81aaaa"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/saturation.mcfunction"
+hash = "d191ef78258e4ff5d6e528b89d4073bfb90a0c8cf7a0f0d3e4c4f76b96a896cf"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/speed.mcfunction"
+hash = "7ebe809b421fcd149ff6dcb94c6e91842c2d992d8b7b0dee7d580afa827b992a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/steal_effects/strength.mcfunction"
+hash = "10056736f7e91f4913e8f724ea32683aadac92a113216a8a0f4e1c8c7bdbeaa0"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/functions/stew_give.mcfunction"
+hash = "96d7747b709c74e30a0d993e4163ca3bc4452c119b1240a01133e1958d56e2e3"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/blue.json"
+hash = "abe99c82ed390ac6a8b28c63e0832922c00696073b53aba74a53a47131bdba1f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/ddd_activate.json"
+hash = "b44a4eba2d5c58990bd46dde6abb85c9e02fc70792b94b0d21762bf114a78333"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/ddd_deactivate.json"
+hash = "ea6d4a01b3d6cf169eb092b95f107c20583a5da712e0443f568a51c37a2d47ab"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/fff_activate.json"
+hash = "6cee3b31a10d424f2139bbc9657f6a91a26c3b1ef1327e2d5562ac3c20e1d3d9"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/fff_deactivate.json"
+hash = "879bba138e25f33f86cbc47d77ef99e79745a071a6748613c102caeb839d8e5b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/mirror_tag.json"
+hash = "bec29918f9dc9b2c6b4ef67b32b39ffbc4ea6c52332c96adc1796d7ba7e1e304"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/normal.json"
+hash = "6db8f53061219c9166da8939295bcc1f4dca429fb6bfc699e1ec19f97d48238c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/orange.json"
+hash = "c2fa115acac71e0c87780eceb8cbca0d39a4bf9ea59482c14eed056835eaa4a2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/repair.json"
+hash = "c7ac55c94be0633bfc722c83c1db1dd271f7f02986da34eb055ba69a9df0ecfe"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/sss_activate.json"
+hash = "8e98192b04ee8e57f2454476e276d50a7140d02604bcd357c9a13365e6b56f94"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/item_modifiers/sss_deactivate.json"
+hash = "3029d77fdf3eada07748b3cd943045890729536e3804bb78235406a9d8394f7a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/origins/hexblade.json"
+hash = "276bacebbcec4d69087b3272d1652a1e4a138f2e9c1bcd5d963d97dd4ca91da4"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/credits.json"
+hash = "5630ee2c4ec6ae35496d6a0d6137c8edb28bd3cfbfa901dc4b7542b3cf8154ed"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_buoyancy.json"
+hash = "f29138a110769cc8529b947410a2aca18eacfceee5f2d16a10bd75f568c6949f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_dash_slash.json"
+hash = "b4406517029a2659edabba0f74cf8841eaf8c8951ea5e39ab795cc11b94f4fa4"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_hunters.json"
+hash = "41caf4e2c0ea37d689e9367cf2369dd87965c28451c6bafae67f4751ca887970"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_inanimate.json"
+hash = "c845da8023c2a0aa7783c5120b65569a0839426ec3c457a153885f6079ce47a1"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_intangible.json"
+hash = "4cf16e4b41a11494cb52bd75d365cec314d960d8332629986b1295ad56aca2be"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_item_curse.json"
+hash = "db2d7833d9aaa7c1698dc716e4abe4c4e44636174bc01431a9f641dab4566b0c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_nostalgia.json"
+hash = "a85201968ff858e3f8f457e8349b094d2f5718ca01766f298332ca183fe290a3"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_one_soul.json"
+hash = "87e2fc45529ede71d284b740a40703ffcd6970742a1625db53c179996fdc207a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_parry.json"
+hash = "cc238e1436d076c30e541e7523b8081c246470d0767f74e0a1b70cb54331d07a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_risk.json"
+hash = "5449b176cf0a18f9b01a76710ebb670c4b5eca3773ebfc60ab599f43e1e4f1a9"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_secondary.json"
+hash = "53fe6948b05b826277023b0dd0210c01a9f6d5d4d76d1a3bdf46c2cb29ba344c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_smite_of_radiance.json"
+hash = "e23c2dffb85479794c01ee91d6c4287abd4cdcaae3b2951bf705b9715896113b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_soul_barrier.json"
+hash = "bf71eaadbbaeac5e7e6906fc2ce91b6e2d018b540f170df699378d565b6614bc"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/description_timeless.json"
+hash = "fea820ca6fd21bea313cde6b11514fde6f8b6a3ecb060015fd6662e842a240a3"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_callback.json"
+hash = "f491626242f0070b5b45a6a1f1b4333a0a50d850b0fb64b8cd5ead4040215201"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_ddd.json"
+hash = "005580e7a7b9c0ac0b90ab23f42b9a68a2f2a8a73cf068812ecf0b127b24addb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_hunter_abilities.json"
+hash = "59777641aaafb70dd0bb95b1ef6572a85eab6792401b364827e767909bc92b56"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_passives.json"
+hash = "a8d4f4532f1dd6a8d505c517d8fd4949568c4da0d2257721fbb96d75e15f034e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_primary.json"
+hash = "862f450abba8171caadbddd70cc23dc9222d5caed7815997df2abc834f16e664"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_primary_b.json"
+hash = "3793cff1ae2684159b47982a07826f3b3985b948ad613c9c8008a1654993de64"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_nostalgia.json"
+hash = "eceeb90f63d46993099791d32cf4d8772c2362c778c911a1bdb8a833624c322b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_risk.json"
+hash = "a833d304b827e93a7f08211e903d45f265816f26b08e9b869e44712cd6dea740"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_souls.json"
+hash = "bb5afaf510c7ee777ee765eed02380948bd13e69060fba8020bddcbe4a0274eb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_storage.json"
+hash = "b5a8bbb7e0a5552b0551de598a04de927c28f6113c70447804cdc4ab18ef75e4"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_ultimates.json"
+hash = "d32d3df9d91ae23cdf7280b9d44f40c0ba684037cd7fa4b63605b94173b1b875"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_resource_waypoint.json"
+hash = "3c7dee07717e53fd828c5c51ccf6a1c459f44c9058afe07ef63deb70d9f71c84"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_right_click.json"
+hash = "abe62aeaa09f5f8d927848c66ea98af41b4df9eb5c25b7edcd84cf163b6c72ba"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_secondary.json"
+hash = "bcf0086ccc237f5f55ecaa6a2eaceb73346dd9b3324c347a250a27af8edc16b7"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_slash_basic.json"
+hash = "bb98861f81805e76dfe5ec3474e2c222892923eec7770ce99a3f10e06e1ac694"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_slash_extra.json"
+hash = "fdd7672945262e2cc23d3fafcc12b09bddc2554d9aa27e09e9d044a4c4178e39"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_slash_ultra.json"
+hash = "8ada1e04d65917e9ff9cec3e6f8fe0227f31619ce4523852c087b89cf10e3e5c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_slash_ultra_pog.json"
+hash = "6a6de0634be6d174eef6ad96d956ccd5ea1cfa1c99f480074dd6c30479a444df"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexblade_spectating_controls.json"
+hash = "ba1cfd5251f08f12dded1fdfae85ae62fc3df2fd0c360297d04c5ee6ca081d9c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/hexfriend_powers.json"
+hash = "465bd5d41d64ea5b5c37989b0dec679289bd45c2de78b1bf4cf3139124ae8e25"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sand_status.json"
+hash = "23175ef40331141f6ca570b35dc6da31a8774ac7e59aed18f8332447a7f9741c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_seas_status.json"
+hash = "a721df515d7b8c0a54bbea787cb4deea2d4c6b868505eb6cc315ffad5edf3327"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_seething_status.json"
+hash = "e869e007461745b397c1af91af18eb1da85e37e16b07b6c2dc3c6667d821edc2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_seething_status_mob.json"
+hash = "e7dae0676769865bae90b11c6856fba3135b2bbbb4ab3252b893762ca4d27178"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sight_status.json"
+hash = "4badb3488cf19ffeb96b4bb3ff81ac10d47f385fe10d6a19b92e8509ea2953a6"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_skies_status.json"
+hash = "332a8deccec8eeeba3db0c7c7e6c2765d888b777caed404b0b957fddad4142c6"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_smiting_status.json"
+hash = "aa32dc29025842aaf78c8332a91c92780c2f72f4319bd9a7ca4beb5db2bf3223"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sss_status_mob.json"
+hash = "ee6c695fb521b07f77ed0e6d38a8cd327c9d44ece197f0eb3e32d641629181fc"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sss_status_player.json"
+hash = "e207efd5027e4eb927808671e33854c3188b03da9d16260b2bb14afb840111c2"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sss_status_self.json"
+hash = "244d4095bfa07cb3660cb36e2bc2f70480103e66a2e2108cf9442c9b5fbd01fc"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sigil_sundering_status.json"
+hash = "2dc3acba8aa8379f517f17178286283e206f5d6aadab6b7450043d3e87b89e48"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/powers/hexblade/sss_waypoint_kill.json"
+hash = "7fabfb1e63e8032d8d9703653bdb3802783674ffb358068b612c30a1ec84925a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/predicates/dead_predicate.json"
+hash = "01368bf6fd5eebe36445b9743898e3e2761536897e27273a3154e4fa17583ebb"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/predicates/mirror_predicate.json"
+hash = "a8c1beb1342a88787e240105b3112e1da825b45d802e962d90a67d1debdbfc6f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/cold_blocks.json"
+hash = "f48c6953b5935906b8ceb5628d815a4925601d7fb495abfba5a1034004b1b061"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/hexblade_unphaseable.json"
+hash = "4a9cfb12ad7b5e059b748695b9fad1160324a186e1004838f8cdd69e11ca668e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/hot_blocks.json"
+hash = "4b6b561aa3dc4668a2b13464cc97d74c67d8b617b55c6d659fdcec9fb99542d0"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/metalores.json"
+hash = "e92ef2eec85c4c41e64b04c9aaada650fdf46f771395a02087ce7fc37a23352b"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/mushrooms.json"
+hash = "0dcd4457286d5af99d96d20fd9265b1c80eea639e4060770ebb93598d84d6234"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/snowy_phaseable.json"
+hash = "ebe6bcaacb38342b884e4bbb0e9e18629142cf4d0ef800e02487402a61bc8aaa"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/spiky_blocks.json"
+hash = "b3e3f806eab87f28da18ad8278ed9a6ff0b5adf4e92f44303945311e266528c5"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/valuores.json"
+hash = "7cad726a1f697aea6ce8a7a898194308b08d62f8e6f5a83f8258a4b1dd630091"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/blocks/walk_shrooms.json"
+hash = "add020c33a04fc919281d5b8df520c1fb62e44344ce2665702a266ce9e041ba6"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/evil_creatures.json"
+hash = "3b8db532799acdaef65aa09e362eec630434ece8dcac7cc1570656970c42c78e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/noforgive.json"
+hash = "f4213bbf1fdc43fcbcc290d6b49ee1b7215b49f7103180738ba7a7116e6d665c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/non_living.json"
+hash = "25126e7c1478b4a49a5d9630d34690dae757ca0e5598a4623780b37fb229dc77"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/passive.json"
+hash = "f73cc013edc6d43c46cba85d63063503f00f48731b3e76bb9ac567086fef769e"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/pickup_blacklist.json"
+hash = "adb12bcbe43f015c487e7b7c56714605ae3590ff8e2532afd773b999ec035711"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/small.json"
+hash = "e74a97863a004be7e207252832ac0ac6ba8431671f0396cc1e87a51355204d70"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/entity_types/undead.json"
+hash = "83c9cc20b19de9481f6e61a8e167a6f7b0f466081b6b355015731a92d22abe00"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/axes.json"
+hash = "ad39e7815f8d3e89a8807095f417b21f72b2fdddad81e03004b61c5b54e63d6c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/chestplates.json"
+hash = "f01e0a89f08741b8f90a04ef8f2529d2c2e45ffccecc18a9f541971f16439e6f"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/fish.json"
+hash = "50bc2d3d87c065782d44816292e5e16d231604a299d47bc45c30b886de9392c4"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/gilded_veggies.json"
+hash = "bdc5e129aeed6943e5697ad22ba3ba6fceb81ca433bd43430e7fb7bd1ff1b4f7"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/good_hoes.json"
+hash = "c3d9848547f5f8b71d2b5fdcca6896e29d938aef34439eb4c8a6169dd82dcd90"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/hoes.json"
+hash = "68a171bd4571d3cb44a75c9680aa4067ca5bf39d13a56cbe82b01020abb2e1ec"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/meat.json"
+hash = "96c698194e97b29456dbeb57ed5a8a39280d1213c4dda6a3b6fcfc3f44e13e5c"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/melee_weapons.json"
+hash = "28c10c0ceec83f107685edb0e388d51f2b8160cbdf001691f7d8eb9b0783445a"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/picks.json"
+hash = "bbb6deb8d7add6dc40d61c92d3bdb73c430d166601166d6c3244fa2385e3a559"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/potions.json"
+hash = "7b12291d05fbe3ca98133b60fdbc0a55c11967ffa843ffa0c8ed9ec060643388"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/ranged_weapons.json"
+hash = "709a02ed4f0bb78f4de11aab8ad4ad401d9e3723402a3dd4623f6e18a50a5ecd"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/apocalypse/tags/items/swords.json"
+hash = "7b27fa7b9696d8e70ff7d215d4a32d3d842483dbebe726f2af897b2f56e9d4ea"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/origins-classes/origin_layers/class.json"
+hash = "027e140206b3d7aea36cd7e0491f91a23fdf55e0374881d7dd7ea9dd58ddb993"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/origins-classes/origins/nitwit.json"
+hash = "d89cf9c6e86afdcea1f9f61075239daf6704dc9d442d9170520b7af541f049b9"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/data/origins/origin_layers/origin.json"
+hash = "994857407ff0b6a7a868f1966e5dad85050cdce6a2c840810f3d0a5318fafc65"
+
+[[files]]
+file = "config/paxi/datapacks/hexblade-apocalypse-v1.0.1/pack.mcmeta"
+hash = "e431714aa803cda81345b841de1c7e24b2c97c565cbaacf09826aa179e1d4ed3"
+
+[[files]]
+file = "config/paxi/datapacks/kitsune-origin.zip"
+hash = "d302493885ce1b5da789dd55ec8507476db9eab50df923d6c250e5e6ed6b8fe1"
+
+[[files]]
+file = "config/paxi/datapacks/more mob heads minus w i v2.11.0.zip"
+hash = "129ac274b362ecc5f7074a7f5d4f43c430023ad31bcd7df06fa9526f3b2d3e62"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/origins/phoenix.json"
+hash = "7ff6e8f5aa8e712fcc510d46ac16d31f453c31a47507414fd89bb00fba2769dc"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/extreme_hydrophobia.json"
+hash = "ce0ef1170d3b5259bc32b1b03357661874ee416ff8f9a7bcdf920080dd8d4403"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/fire_body.json"
+hash = "7184fec1805eef956570cf6dd2f7d9aeeb4d07ee9eb1db08a1fc495707d73cec"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/fire_meter.json"
+hash = "1973866a5a8868dc62413100cdafb2f2a48360e6a0451c2957e8f6713df372e2"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/fireball.json"
+hash = "e2e2462a14ef1ec7fe1ff87901d491ee822d9a97b7e45b01966426747fdfc806"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/flame.json"
+hash = "afa1fdbe7c583a5af1e822d25126bd5860566843bd0c88f84f42f4bc5c343e90"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/flap.json"
+hash = "39f5769d1f6ae11cd2392d849233a6fff63a1c18fc7f99bf3a7c27725e0cd7b4"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/mythic/powers/primal_source.json"
+hash = "8d1d9433d436836c965c8654db559f420f9bd6f7823896688b7cdf7b64b022ac"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/data/origins/origin_layers/origin.json"
+hash = "9818e554051526ebff4cb2b990bae99cf687dcb95f093c8682835bdcd7dfbc29"
+
+[[files]]
+file = "config/paxi/datapacks/phoenix-origin-v1.0.1/pack.mcmeta"
+hash = "1299d7ae83ebc846b2388e189b92eb6c7a46bc73953bef8a0843057738d98a6b"
+
+[[files]]
+file = "config/paxi/datapacks/player head drops v1.1.3.zip"
+hash = "91c79c3017a185db99015215607d3e10f9dae68e18c837238e4be93df63a6533"
+
+[[files]]
+file = "config/paxi/datapacks/silence mobs v1.1.3.zip"
+hash = "4f9031d53ad6cc6658ad261a12c972827962e4b83991530c9faa77844638cb71"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/fabric/tags/items/bows.json"
+hash = "6e2c8ebef04cf90367ac208d89b2aef35ad4d5c840666e4a8a91232a6c0f56be"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/origins/origin_layers/origin.json"
+hash = "4bc0c48f99717c626a1966c5a2653c6b518a5d788e0e956b384e9ef937b140aa"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/origins/snow-ursian.json"
+hash = "807d70d47b997be8187772f650cf89f501463b63c5bf0bbad393f928761b3b8a"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/furred.json"
+hash = "d1ceb210f5cb23d05ee7f340aace197e23364ced3b4f9fec0668ac192cb26e0d"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/mighty.json"
+hash = "210fb68120f3cd89cb18c39035777489d2c8fe0b8a4d16a9dd536a21952d50db"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/nofreeze.json"
+hash = "8b2b4415419d78621ca4ead95147584e3dc5b560ea11af09b00e1d762d4fb9a0"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/paws.json"
+hash = "6ac63246529fa93afaad4892dfe731fbc3282329c7e7327fadf5e2e3022fcf93"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/ravenous.json"
+hash = "f127815baae7ad6920bf49096cdd7bf87ad3b49857162bc8816b3bef9675ff1a"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/size.json"
+hash = "a90980ed27fe67166c625332d00c5e858c3289fbd3d113db7029bcc2633d3e88"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/slow_atk.json"
+hash = "dbf320b960c0d766c2b08e22fc035dc8cbcc76cd41c9c170bb81ab8beca2417f"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/strong.json"
+hash = "6c07740a753f0e4744889118c4b4bd3c79148a842f148f274b05f3cb0a8d2b5b"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/swimmer.json"
+hash = "3297fb98312738f6293a266788fe983db8dd9cb5e9075a135612969b5598f8f6"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/data/ursis/powers/tough.json"
+hash = "f9ae4f190cea7971e5b0fd8163dda044e2367a4e4799529044c637bb5249f916"
+
+[[files]]
+file = "config/paxi/datapacks/ursian-origin-v1.2.2/pack.mcmeta"
+hash = "1299d7ae83ebc846b2388e189b92eb6c7a46bc73953bef8a0843057738d98a6b"
+
+[[files]]
+file = "config/paxi/datapacks/wandering trades v1.6.0.zip"
+hash = "2e8a36d3f9308d07b7f9a132c95a4e2443b58c555f5a9cbde40cb28574ebbe11"
+
+[[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/a_hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/a_hexblade_storage_ally.pdn"
+hash = "f228d667f709a8ca305b9715b49ba08603f51c195b1873f4b140e50d746c7bea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/a_hexblade_storage_ally.png"
+hash = "e14615278c1bb8b553db877bc4232c095a7e4da8d711c47ddf079c10b7118a97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/a_hexblade_storage_ally_b.png"
+hash = "351ed2db33298c1afb18ca32c51d1ae7fdcd7f8642f0f1eb51c14f205be7860f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/blindness_bar.png"
+hash = "b60c3656943f5d121866384e017645c670c5b85da2ec79e7e5196a542bfe7813"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_altar.png"
+hash = "d2a644e212fbedbbe817a12559d5094df872179feef4424c2ff4531056310dd4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_bars.png"
+hash = "fdb14d7386bf353ebba4845fc0526a9d2f503f6e61136e77e1f032a65403ed24"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_nostalgia.png"
+hash = "7c81ef35e272865d5fea0654361a749363ad4ae6e20ba40d9f02774d595c02c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_parry.png"
+hash = "0aac60c0e4ccacc3ed7c188f55fd70b3967e1c6e6e6e1cc9a8d8ff540a54f4e7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_risk.png"
+hash = "1abe2272de61dea07fecb058a9899e5b2fdef296dfe6566aff574d721900ce48"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_risk_ally.png"
+hash = "3b8778010cf11e881744c1a1a65cb58aa7be4d418718f6270e2704569aee80d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_rznostalgia.png"
+hash = "2503196486933fcbccc742b13e86371448322e7786b723331cade78ce3f6f15f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycoberry.png"
+hash = "60c52b9fbb1dfa962e93510b2300d29b7a1062e2169f90647803a9c04ac0fc8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycocactus.png"
+hash = "da48da14e192c8fd62eaa586111543d67535ade2b9044c4027c2fc5fc721160b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycochorus.png"
+hash = "80e87020e8104045eee96bd04761e3f956ae369cbb7f2300d90e64cd0655ec18"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycocrimson.png"
+hash = "2759b7e56d2ede750a268d633880c0ec94996a4566a1b7b3d694a32e768319e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycodevolve.png"
+hash = "b851e19a51477aae5217d1ca7dcb27e426a278aa0e739e7c3016191509aff154"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycomoss.png"
+hash = "831f6336dac47238a437d6f411bb5e542172d3293f0335c6237d44274162308f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_brown_bars.png"
+hash = "29893e7fa84d1a3b330e261dc2abf04cc166c6184815663c42dc248f00ff25bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_chorus_bars.png"
+hash = "b0ed0cba53feb020170f670a8692166c104f5b45c7c456756427701d26c15b2f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_crimson_bars.png"
+hash = "0c43959b6cdab95b24f610d78e486df2b2e0aa8ef7a979c59133a762a6e201e2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_desert_bars.png"
+hash = "b32270a301a9bf5288af90c2c7d2c6a4faf4b554582922d3fec57c07670c27fc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_moss_bars.png"
+hash = "231717ac14b1e1f52add040f434eb2c8e7539465bd34918c14c1f2cf1a8ef9ae"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_red_bars.png"
+hash = "c749a029051359f64aa7ce7ddbc8c54331783d8ab15b36efc981119b34791a30"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_snow_bars.png"
+hash = "a29243009fd5c721761e2435e195fc9f53fadbeb11cfca11bfc6450b5d66338d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_warped_bars.png"
+hash = "57d57964673dbb5f871a05b431500e36e994d8777bbe1907929d94c6537b0624"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/myconoid_wart_bars.png"
+hash = "1bd30a3dd48d5bc7fbadc22296767a3c15da14b0203e06f94764fa79d7758295"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycosight.png"
+hash = "5786a331948ba749699de5d4d0d7b0557aefd5781e0532c5d7ae75e6ba998eea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycostamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycowarped.png"
+hash = "7b6d56da1da4f4da2ef982fe1133cf1e842ade91ab1857472657c81226718abd"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/mycowart.png"
+hash = "3b8c9555dade7602406a32adf6a9d27d9e258550fdbdedacc33802bed1a1127c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/overlay.png"
+hash = "14029ea3a9f7cf9ac98970bbf74a72acc7230b1e34b6fb4f16c62817695cbfaf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor.png"
+hash = "b923bf9a7e9c4db24fd44a6c81f5a0c68031fa6889a2ab70fbdb413dec7e64d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor_bars.png"
+hash = "df7cf394337a703a5cca3d5a14e1bfb718f58308c6c658e939c6f0ea12bbeb69"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor_broken.png"
+hash = "4fce8c943a55c350b12155a19f3512b0a29f4525836380a00cc5e44be77db96d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor_mirrors.png"
+hash = "c88d8f0b4182de198d0e1c7c3ebe3a155a4bb2ed8a4842d4ae5bb57efaff93c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor_select.png"
+hash = "231110eeae761bbf008449667634ba2e33ed4fd66256a45a61b676eef85f74a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/refractor_trapped_light.png"
+hash = "100d074714adfd1e867155b82bc7fe22b91f7da485c8756d9c5a8aff1046478d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/sand_bar.png"
+hash = "be9c60b3e1a65fc6cfd57f4b4df5284fe285416b4f06c58d1391cd388e3a8c7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/seas_bar.png"
+hash = "96046d42288e3e81429509d4e3416f4e1d220ddf2f9d0ee4793a0f82a2c10bd5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/seething_bar.png"
+hash = "7f6180a6cba2bb2d8b6a73e5d1a2f43f2e3a1d8993c2353aedec6c7dd03b977a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/shroomba.png"
+hash = "d032b936efe54c9054ca33da2ca0e80468099edab132e405b6e91251b9990872"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/sight_bar.png"
+hash = "8b772778a6d083f749496f8189992d42910b0500c0ec662e3ce23f36f13f2c33"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/skies_bar.png"
+hash = "cc00bd7e6efbfc1bb89ad65e72c7b5d4368873ce4765bd7a84170b42888452ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/smiting_bar.png"
+hash = "87b7088e43311737ac16142bb3b650fccb7bc3c8f9866155935caef6fd6a3e92"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/sss_bar.png"
+hash = "b4cd8aa51c010c0074fb2f3a27bcda60b71bdbfab387f493bd37fff1cbe488c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/stomped_bar.png"
+hash = "65881dd822da5109ba14de3580e01b626688661f9c24c3736b4b2a105a26b269"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/sundering_bar.png"
+hash = "42118352f5f7b906df7256e497c1de656ab09848fc7ffec2aab97e2fa1647fab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/temperature.png"
+hash = "28e150d8a1b5a1407c2738e5faef7146e8b8b5c46d449f57f414696e2176ba6c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/temperature_hot.png"
+hash = "e7e12d2ed3bf0a0763583cfb9e02bfa609e17c2a51d375cd1ce4be423241ec80"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/template.png"
+hash = "4e379159372b8550d376685737a7e22cdc16775735c12625c50b1149ad3f57b0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/trueblindness.png"
+hash = "a3d87a864546eb0f1f8fbb5badcf333c32da538c48195c1f61f74cb8b10e72bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/wetness.png"
+hash = "35059022f0814e98547b9296b3a955c3b82b0600071051a4bdf19e5dc3849d5d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/z_mycowart_spelltype.png"
+hash = "3cf6e8b9f213f37a72f0b0dfc368d55564607495c1b5d83cc961502fa39577ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/z_parry_cooldown.png"
+hash = "c169879ce870434550f4b3495f63df9aa9d8f94ed7aba562e7a36910b715df85"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zamethyst_reinforced.png"
+hash = "2f78e090c5c0c195eeaa09918a32926615a8f3a1bae711b5f101f8af902c0a81"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zberry_mounted.png"
+hash = "3e3cf1695ed5a4b584bb47b1a7f5aca8fffa5191fcfd2b25bbbeca7e3725cbe5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zfungal_healer.png"
+hash = "4616f4667f7bed08572dbfcda487dd3a04443bac78c4b74d8c391500cdb721b6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zred_buff.png"
+hash = "93eda8a9b909de44e5307296a3e4655eadeb995c0050eb1f70d6d6d266031643"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zz_stamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped.png"
+hash = "760a415f4805a8356a82404c47a02211b613ba703f1335a08592c1588d20d923"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_bad.png"
+hash = "2c5aa781d85f378c12baed516388b0f018ef30d7894c91659464f147aada9740"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_bad_hex.png"
+hash = "eadec7a94a6cd5c1ff6268989132ea434d653b0276543573205a5b8714934dd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_bad_sundering.png"
+hash = "c60e1e1c47dcffbbd18767b82c8ad65520a9f17e674f110a948074010da5bdd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_fshield.png"
+hash = "38cf243515acaabeb9f954ea600603631aaa0ee7ad936860a270561e8bb50976"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_gform.png"
+hash = "2bab337c98fa7ba3952c5c02171c0c2a465691cf14abd30ba37938bc1fa0ffaa"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_marmor.png"
+hash = "aea65e5c6a611cd544aff46b9bb6cb3f48f3dc2e7bc112e9aabf605de1d0e964"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_wind.png"
+hash = "2b95c88747a25797367f1a697783e7ad09d560fb06b3d5ab60441014e1aa4fb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/gui/zzz_buff_warped_wings.png"
+hash = "bd36ef76941243c57c522dd7c57e0fa235e0dc030f12785b0e22fd850eafa1a8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/icon.png"
+hash = "09054030f0470c3861683355f4adbeed5cf3025c61c76961e50019a4dc41307a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/lang/en_us.json"
+hash = "988103b966bdc24f090c53c7f7350acd5a7330a92f286d122178e74469bd574b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/a_hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/a_hexblade_storage_ally.pdn"
+hash = "f228d667f709a8ca305b9715b49ba08603f51c195b1873f4b140e50d746c7bea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/a_hexblade_storage_ally.png"
+hash = "e14615278c1bb8b553db877bc4232c095a7e4da8d711c47ddf079c10b7118a97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/a_hexblade_storage_ally_b.png"
+hash = "351ed2db33298c1afb18ca32c51d1ae7fdcd7f8642f0f1eb51c14f205be7860f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/blindness_bar.png"
+hash = "b60c3656943f5d121866384e017645c670c5b85da2ec79e7e5196a542bfe7813"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_altar.png"
+hash = "d2a644e212fbedbbe817a12559d5094df872179feef4424c2ff4531056310dd4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_bars.png"
+hash = "fdb14d7386bf353ebba4845fc0526a9d2f503f6e61136e77e1f032a65403ed24"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_nostalgia.png"
+hash = "7c81ef35e272865d5fea0654361a749363ad4ae6e20ba40d9f02774d595c02c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_parry.png"
+hash = "0aac60c0e4ccacc3ed7c188f55fd70b3967e1c6e6e6e1cc9a8d8ff540a54f4e7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_risk.png"
+hash = "1abe2272de61dea07fecb058a9899e5b2fdef296dfe6566aff574d721900ce48"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_risk_ally.png"
+hash = "3b8778010cf11e881744c1a1a65cb58aa7be4d418718f6270e2704569aee80d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_rznostalgia.png"
+hash = "2503196486933fcbccc742b13e86371448322e7786b723331cade78ce3f6f15f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycoberry.png"
+hash = "60c52b9fbb1dfa962e93510b2300d29b7a1062e2169f90647803a9c04ac0fc8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycocactus.png"
+hash = "da48da14e192c8fd62eaa586111543d67535ade2b9044c4027c2fc5fc721160b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycochorus.png"
+hash = "80e87020e8104045eee96bd04761e3f956ae369cbb7f2300d90e64cd0655ec18"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycocrimson.png"
+hash = "2759b7e56d2ede750a268d633880c0ec94996a4566a1b7b3d694a32e768319e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycodevolve.png"
+hash = "b851e19a51477aae5217d1ca7dcb27e426a278aa0e739e7c3016191509aff154"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycomoss.png"
+hash = "831f6336dac47238a437d6f411bb5e542172d3293f0335c6237d44274162308f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_brown_bars.png"
+hash = "29893e7fa84d1a3b330e261dc2abf04cc166c6184815663c42dc248f00ff25bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_chorus_bars.png"
+hash = "b0ed0cba53feb020170f670a8692166c104f5b45c7c456756427701d26c15b2f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_crimson_bars.png"
+hash = "0c43959b6cdab95b24f610d78e486df2b2e0aa8ef7a979c59133a762a6e201e2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_desert_bars.png"
+hash = "b32270a301a9bf5288af90c2c7d2c6a4faf4b554582922d3fec57c07670c27fc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_moss_bars.png"
+hash = "b033b9c766aa7110adb6583917993af671aa034ccb45b4dc9f9c2b0508aef012"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_red_bars.png"
+hash = "c749a029051359f64aa7ce7ddbc8c54331783d8ab15b36efc981119b34791a30"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_skulk_bars.png"
+hash = "b7950d82ae86bb6636c37581f65a3b2c090606ac8ebabaf28c3f15085f73a58b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_snow_bars.png"
+hash = "a29243009fd5c721761e2435e195fc9f53fadbeb11cfca11bfc6450b5d66338d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_warped_bars.png"
+hash = "57d57964673dbb5f871a05b431500e36e994d8777bbe1907929d94c6537b0624"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/myconoid_wart_bars.png"
+hash = "1bd30a3dd48d5bc7fbadc22296767a3c15da14b0203e06f94764fa79d7758295"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycosight.png"
+hash = "5786a331948ba749699de5d4d0d7b0557aefd5781e0532c5d7ae75e6ba998eea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycoskulk.png"
+hash = "715168d8bfd1f69c0c9410745e59aa654af389810317b3c5ef3c03b2250ff5cf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycostamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycowarped.png"
+hash = "7b6d56da1da4f4da2ef982fe1133cf1e842ade91ab1857472657c81226718abd"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/mycowart.png"
+hash = "3b8c9555dade7602406a32adf6a9d27d9e258550fdbdedacc33802bed1a1127c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/overlay.png"
+hash = "14029ea3a9f7cf9ac98970bbf74a72acc7230b1e34b6fb4f16c62817695cbfaf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor.png"
+hash = "b923bf9a7e9c4db24fd44a6c81f5a0c68031fa6889a2ab70fbdb413dec7e64d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor_bars.png"
+hash = "df7cf394337a703a5cca3d5a14e1bfb718f58308c6c658e939c6f0ea12bbeb69"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor_broken.png"
+hash = "4fce8c943a55c350b12155a19f3512b0a29f4525836380a00cc5e44be77db96d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor_mirrors.png"
+hash = "c88d8f0b4182de198d0e1c7c3ebe3a155a4bb2ed8a4842d4ae5bb57efaff93c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor_select.png"
+hash = "231110eeae761bbf008449667634ba2e33ed4fd66256a45a61b676eef85f74a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/refractor_trapped_light.png"
+hash = "100d074714adfd1e867155b82bc7fe22b91f7da485c8756d9c5a8aff1046478d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/sand_bar.png"
+hash = "be9c60b3e1a65fc6cfd57f4b4df5284fe285416b4f06c58d1391cd388e3a8c7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/seas_bar.png"
+hash = "96046d42288e3e81429509d4e3416f4e1d220ddf2f9d0ee4793a0f82a2c10bd5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/seething_bar.png"
+hash = "7f6180a6cba2bb2d8b6a73e5d1a2f43f2e3a1d8993c2353aedec6c7dd03b977a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/shroomba.png"
+hash = "d032b936efe54c9054ca33da2ca0e80468099edab132e405b6e91251b9990872"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/sight_bar.png"
+hash = "8b772778a6d083f749496f8189992d42910b0500c0ec662e3ce23f36f13f2c33"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/skies_bar.png"
+hash = "cc00bd7e6efbfc1bb89ad65e72c7b5d4368873ce4765bd7a84170b42888452ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/smiting_bar.png"
+hash = "87b7088e43311737ac16142bb3b650fccb7bc3c8f9866155935caef6fd6a3e92"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/sss_bar.png"
+hash = "b4cd8aa51c010c0074fb2f3a27bcda60b71bdbfab387f493bd37fff1cbe488c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/stomped_bar.png"
+hash = "65881dd822da5109ba14de3580e01b626688661f9c24c3736b4b2a105a26b269"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/sundering_bar.png"
+hash = "42118352f5f7b906df7256e497c1de656ab09848fc7ffec2aab97e2fa1647fab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/temperature.png"
+hash = "28e150d8a1b5a1407c2738e5faef7146e8b8b5c46d449f57f414696e2176ba6c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/temperature_hot.png"
+hash = "e7e12d2ed3bf0a0763583cfb9e02bfa609e17c2a51d375cd1ce4be423241ec80"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/template.png"
+hash = "4e379159372b8550d376685737a7e22cdc16775735c12625c50b1149ad3f57b0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/trueblindness.png"
+hash = "a3d87a864546eb0f1f8fbb5badcf333c32da538c48195c1f61f74cb8b10e72bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/wetness.png"
+hash = "35059022f0814e98547b9296b3a955c3b82b0600071051a4bdf19e5dc3849d5d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/z_mycowart_spelltype.png"
+hash = "3cf6e8b9f213f37a72f0b0dfc368d55564607495c1b5d83cc961502fa39577ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/z_parry_cooldown.png"
+hash = "c169879ce870434550f4b3495f63df9aa9d8f94ed7aba562e7a36910b715df85"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zamethyst_reinforced.png"
+hash = "2f78e090c5c0c195eeaa09918a32926615a8f3a1bae711b5f101f8af902c0a81"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zberry_mounted.png"
+hash = "3e3cf1695ed5a4b584bb47b1a7f5aca8fffa5191fcfd2b25bbbeca7e3725cbe5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zfungal_healer.png"
+hash = "4616f4667f7bed08572dbfcda487dd3a04443bac78c4b74d8c391500cdb721b6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zred_buff.png"
+hash = "93eda8a9b909de44e5307296a3e4655eadeb995c0050eb1f70d6d6d266031643"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zz_stamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped.png"
+hash = "760a415f4805a8356a82404c47a02211b613ba703f1335a08592c1588d20d923"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_bad.png"
+hash = "2c5aa781d85f378c12baed516388b0f018ef30d7894c91659464f147aada9740"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_bad_hex.png"
+hash = "eadec7a94a6cd5c1ff6268989132ea434d653b0276543573205a5b8714934dd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_bad_sundering.png"
+hash = "c60e1e1c47dcffbbd18767b82c8ad65520a9f17e674f110a948074010da5bdd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_fshield.png"
+hash = "38cf243515acaabeb9f954ea600603631aaa0ee7ad936860a270561e8bb50976"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_gform.png"
+hash = "2bab337c98fa7ba3952c5c02171c0c2a465691cf14abd30ba37938bc1fa0ffaa"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_marmor.png"
+hash = "aea65e5c6a611cd544aff46b9bb6cb3f48f3dc2e7bc112e9aabf605de1d0e964"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_wind.png"
+hash = "2b95c88747a25797367f1a697783e7ad09d560fb06b3d5ab60441014e1aa4fb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/gui/zzz_buff_warped_wings.png"
+hash = "bd36ef76941243c57c522dd7c57e0fa235e0dc030f12785b0e22fd850eafa1a8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/analyzer.png"
+hash = "851e31c52412d1dc67667a96d95b4530c9f1fb08523ee57424eff6ef3f0e627b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/antimutagens.png"
+hash = "b10f52af62e8b286f229d1b07ad7619c0ac87a52169b5aa586feea8b0cd258b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/antimutagentemplate.pdn"
+hash = "b4a302131db6ca52c5a95358867ca3e2720d278b22f7427e8eee862b9646658e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/backuptemplate.pdn"
+hash = "9d89e250ad05fca457166876cc9b95cfcaf77de5d624341a4ae5393be8e0e5b1"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/genelock.png"
+hash = "c4674eea196975b4e15d13f13348cdd983afe1de911d5225766506bdcad5614f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/generaser.png"
+hash = "b6dced8924fe9e7002940547241c597a50a6f7387dc2639389f1f50150ae8d01"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/hexblade.png"
+hash = "86f448b55b696dd4d9c8a874308b45cf1816defe067e55c5b818191022b228bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/hexblade.png.mcmeta"
+hash = "ca12bdb5b731a77a31f1ede28d6d8fa1ab95c35df761bab00d241a0368f3d562"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/mirror.png"
+hash = "32ebaf73d2c5727f885a90170ceaf409ef5c1cceddbe2733b2a6eee5704a9d28"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/mirrorb.png"
+hash = "5e47232982cb178fad88f5de41fc900ed7d858a307780521d2143b84bc31e059"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/mirrorblade.png"
+hash = "43b933b2c004edccd655a700bcd40daf819deaa76cf82a442a24dc2145f8ba16"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/mutagens.png"
+hash = "e768772e68450a64781f1ef53421fb736de0dabd56823dcbd3f5fd1e14b285f0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/regulator.png"
+hash = "cd4f47aced3f61c7ee871c9c0b60198646be5b7cc51bb51bb27c700bb08c2e20"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/regulator_negative.png"
+hash = "dd60d825b3257aa8641acc8b7ad3a4d292c09e6e9db305f1777c6bb0feed0f2d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/regulator_positive.png"
+hash = "8205e600610f0767b8823e54a30aaab0727f3165364d34b9991e17e7f0998dce"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/rnabackup.png"
+hash = "61afaef7ba6d4f78f8fb05e075de23a5acc2e3536703e98fe4ca4926afc8cbcc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/stabilizer.png"
+hash = "98d77318b5f65fdc76be7ccb6ee7adb8f4f6b245606a5a9aef687f163f540e94"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/stabilizertemplate.pdn"
+hash = "2c8fb15b7c05fefe033dbd7c0cecfe939842d606c6c339afc76247388470a1ba"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe.png"
+hash = "0f6f589a6995844d63cb67fa45f4e163ee942e652b1503b776b242a2679e718d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_active.png"
+hash = "0a9aecab2a6a1c59e3613b0a007c1b67cf7eaa60cbe4a99d491c4ac60957e989"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_aquatic.png"
+hash = "f29aefb320cf67c8b53c0bb731f7ae252a8740a4462ed04e8fb28e62fe5ea78f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_arthropod.png"
+hash = "82d0eaf2dcc180662578ba12652d68c2db9c8c02fc9cdd312be60619fb840b23"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_creeper.png"
+hash = "69618d068e9f4d0f60e6286ca65a37deaa984fb0e3f54fbf59ed5ade01d430d7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_end.png"
+hash = "7ff8425a8e3fcd58a450f41a0aca9a9f5df327e301c0b3e095f17a578b25b970"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_generic.png"
+hash = "a1a39f89db79d363e72960063d729d4ddf9b65e28d4bfa0f52a00080ac049e97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_living.png"
+hash = "20d3265ad82747c9cbe09aefb75f426642a4eeb0479b6fd7366b8483d1c8e8eb"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_nether.png"
+hash = "0ad6fc8b1c4d55b94d055438238168c02e6474bec1272d7a29a108c5bc2c4355"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_reinforced.png"
+hash = "224aa883c4851acdcfc8faa056e0073b0582a70ebbef4ab3b28818f2dc7c312c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringe_undead.png"
+hash = "9766ee9b3c8c40776fc9217d02fdd0d54cf5df47041f5a7cc6e147c77de19dcc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse/textures/item/syringefull.pdn"
+hash = "647f47f566a276c4087e739b46e190b11970b00c986735204e5d0b176e29f0d6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/a_hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/a_hexblade_storage_ally.pdn"
+hash = "f228d667f709a8ca305b9715b49ba08603f51c195b1873f4b140e50d746c7bea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/a_hexblade_storage_ally.png"
+hash = "e14615278c1bb8b553db877bc4232c095a7e4da8d711c47ddf079c10b7118a97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/a_hexblade_storage_ally_b.png"
+hash = "351ed2db33298c1afb18ca32c51d1ae7fdcd7f8642f0f1eb51c14f205be7860f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/blindness_bar.png"
+hash = "b60c3656943f5d121866384e017645c670c5b85da2ec79e7e5196a542bfe7813"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_altar.png"
+hash = "d2a644e212fbedbbe817a12559d5094df872179feef4424c2ff4531056310dd4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_bars.png"
+hash = "fdb14d7386bf353ebba4845fc0526a9d2f503f6e61136e77e1f032a65403ed24"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_nostalgia.png"
+hash = "7c81ef35e272865d5fea0654361a749363ad4ae6e20ba40d9f02774d595c02c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_parry.png"
+hash = "0aac60c0e4ccacc3ed7c188f55fd70b3967e1c6e6e6e1cc9a8d8ff540a54f4e7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_risk.png"
+hash = "1abe2272de61dea07fecb058a9899e5b2fdef296dfe6566aff574d721900ce48"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_risk_ally.png"
+hash = "3b8778010cf11e881744c1a1a65cb58aa7be4d418718f6270e2704569aee80d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_rznostalgia.png"
+hash = "2503196486933fcbccc742b13e86371448322e7786b723331cade78ce3f6f15f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycoberry.png"
+hash = "60c52b9fbb1dfa962e93510b2300d29b7a1062e2169f90647803a9c04ac0fc8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycocactus.png"
+hash = "da48da14e192c8fd62eaa586111543d67535ade2b9044c4027c2fc5fc721160b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycochorus.png"
+hash = "80e87020e8104045eee96bd04761e3f956ae369cbb7f2300d90e64cd0655ec18"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycocrimson.png"
+hash = "2759b7e56d2ede750a268d633880c0ec94996a4566a1b7b3d694a32e768319e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycodevolve.png"
+hash = "b851e19a51477aae5217d1ca7dcb27e426a278aa0e739e7c3016191509aff154"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycomoss.png"
+hash = "831f6336dac47238a437d6f411bb5e542172d3293f0335c6237d44274162308f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_brown_bars.png"
+hash = "29893e7fa84d1a3b330e261dc2abf04cc166c6184815663c42dc248f00ff25bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_chorus_bars.png"
+hash = "b0ed0cba53feb020170f670a8692166c104f5b45c7c456756427701d26c15b2f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_crimson_bars.png"
+hash = "0c43959b6cdab95b24f610d78e486df2b2e0aa8ef7a979c59133a762a6e201e2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_desert_bars.png"
+hash = "b32270a301a9bf5288af90c2c7d2c6a4faf4b554582922d3fec57c07670c27fc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_moss_bars.png"
+hash = "231717ac14b1e1f52add040f434eb2c8e7539465bd34918c14c1f2cf1a8ef9ae"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_red_bars.png"
+hash = "c749a029051359f64aa7ce7ddbc8c54331783d8ab15b36efc981119b34791a30"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_snow_bars.png"
+hash = "a29243009fd5c721761e2435e195fc9f53fadbeb11cfca11bfc6450b5d66338d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_warped_bars.png"
+hash = "57d57964673dbb5f871a05b431500e36e994d8777bbe1907929d94c6537b0624"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/myconoid_wart_bars.png"
+hash = "1bd30a3dd48d5bc7fbadc22296767a3c15da14b0203e06f94764fa79d7758295"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycosight.png"
+hash = "5786a331948ba749699de5d4d0d7b0557aefd5781e0532c5d7ae75e6ba998eea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycostamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycowarped.png"
+hash = "7b6d56da1da4f4da2ef982fe1133cf1e842ade91ab1857472657c81226718abd"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/mycowart.png"
+hash = "3b8c9555dade7602406a32adf6a9d27d9e258550fdbdedacc33802bed1a1127c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/overlay.png"
+hash = "14029ea3a9f7cf9ac98970bbf74a72acc7230b1e34b6fb4f16c62817695cbfaf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor.png"
+hash = "b923bf9a7e9c4db24fd44a6c81f5a0c68031fa6889a2ab70fbdb413dec7e64d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor_bars.png"
+hash = "df7cf394337a703a5cca3d5a14e1bfb718f58308c6c658e939c6f0ea12bbeb69"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor_broken.png"
+hash = "4fce8c943a55c350b12155a19f3512b0a29f4525836380a00cc5e44be77db96d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor_mirrors.png"
+hash = "c88d8f0b4182de198d0e1c7c3ebe3a155a4bb2ed8a4842d4ae5bb57efaff93c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor_select.png"
+hash = "231110eeae761bbf008449667634ba2e33ed4fd66256a45a61b676eef85f74a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/refractor_trapped_light.png"
+hash = "100d074714adfd1e867155b82bc7fe22b91f7da485c8756d9c5a8aff1046478d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/sand_bar.png"
+hash = "be9c60b3e1a65fc6cfd57f4b4df5284fe285416b4f06c58d1391cd388e3a8c7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/seas_bar.png"
+hash = "96046d42288e3e81429509d4e3416f4e1d220ddf2f9d0ee4793a0f82a2c10bd5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/seething_bar.png"
+hash = "7f6180a6cba2bb2d8b6a73e5d1a2f43f2e3a1d8993c2353aedec6c7dd03b977a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/shroomba.png"
+hash = "d032b936efe54c9054ca33da2ca0e80468099edab132e405b6e91251b9990872"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/sight_bar.png"
+hash = "8b772778a6d083f749496f8189992d42910b0500c0ec662e3ce23f36f13f2c33"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/skies_bar.png"
+hash = "cc00bd7e6efbfc1bb89ad65e72c7b5d4368873ce4765bd7a84170b42888452ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/smiting_bar.png"
+hash = "87b7088e43311737ac16142bb3b650fccb7bc3c8f9866155935caef6fd6a3e92"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/sss_bar.png"
+hash = "b4cd8aa51c010c0074fb2f3a27bcda60b71bdbfab387f493bd37fff1cbe488c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/stomped_bar.png"
+hash = "65881dd822da5109ba14de3580e01b626688661f9c24c3736b4b2a105a26b269"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/sundering_bar.png"
+hash = "42118352f5f7b906df7256e497c1de656ab09848fc7ffec2aab97e2fa1647fab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/temperature.png"
+hash = "28e150d8a1b5a1407c2738e5faef7146e8b8b5c46d449f57f414696e2176ba6c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/temperature_hot.png"
+hash = "e7e12d2ed3bf0a0763583cfb9e02bfa609e17c2a51d375cd1ce4be423241ec80"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/template.png"
+hash = "4e379159372b8550d376685737a7e22cdc16775735c12625c50b1149ad3f57b0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/trueblindness.png"
+hash = "a3d87a864546eb0f1f8fbb5badcf333c32da538c48195c1f61f74cb8b10e72bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/wetness.png"
+hash = "35059022f0814e98547b9296b3a955c3b82b0600071051a4bdf19e5dc3849d5d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/z_mycowart_spelltype.png"
+hash = "3cf6e8b9f213f37a72f0b0dfc368d55564607495c1b5d83cc961502fa39577ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/z_parry_cooldown.png"
+hash = "c169879ce870434550f4b3495f63df9aa9d8f94ed7aba562e7a36910b715df85"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zamethyst_reinforced.png"
+hash = "2f78e090c5c0c195eeaa09918a32926615a8f3a1bae711b5f101f8af902c0a81"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zberry_mounted.png"
+hash = "3e3cf1695ed5a4b584bb47b1a7f5aca8fffa5191fcfd2b25bbbeca7e3725cbe5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zfungal_healer.png"
+hash = "4616f4667f7bed08572dbfcda487dd3a04443bac78c4b74d8c391500cdb721b6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zred_buff.png"
+hash = "93eda8a9b909de44e5307296a3e4655eadeb995c0050eb1f70d6d6d266031643"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zz_stamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped.png"
+hash = "760a415f4805a8356a82404c47a02211b613ba703f1335a08592c1588d20d923"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_bad.png"
+hash = "2c5aa781d85f378c12baed516388b0f018ef30d7894c91659464f147aada9740"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_bad_hex.png"
+hash = "eadec7a94a6cd5c1ff6268989132ea434d653b0276543573205a5b8714934dd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_bad_sundering.png"
+hash = "c60e1e1c47dcffbbd18767b82c8ad65520a9f17e674f110a948074010da5bdd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_fshield.png"
+hash = "38cf243515acaabeb9f954ea600603631aaa0ee7ad936860a270561e8bb50976"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_gform.png"
+hash = "2bab337c98fa7ba3952c5c02171c0c2a465691cf14abd30ba37938bc1fa0ffaa"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_marmor.png"
+hash = "aea65e5c6a611cd544aff46b9bb6cb3f48f3dc2e7bc112e9aabf605de1d0e964"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_wind.png"
+hash = "2b95c88747a25797367f1a697783e7ad09d560fb06b3d5ab60441014e1aa4fb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/gui/zzz_buff_warped_wings.png"
+hash = "bd36ef76941243c57c522dd7c57e0fa235e0dc030f12785b0e22fd850eafa1a8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/icon.png"
+hash = "09054030f0470c3861683355f4adbeed5cf3025c61c76961e50019a4dc41307a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/lang/en_us.json"
+hash = "988103b966bdc24f090c53c7f7350acd5a7330a92f286d122178e74469bd574b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/analyzer.json"
+hash = "666fcb84344f8e0fa440f773cdfdf2aedf7a1a64e12373af5cdacbbccc6bb022"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/antimutagens.json"
+hash = "a3d51d76fffa50ff4cefe9e7541645ade34d952dd85b83d59cebfbf60dde0459"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/genelock.json"
+hash = "7ec9e3491c569a0d5025780840ad1888d022d9b9e62f22941b629cdbf3ae2f3e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/generaser.json"
+hash = "e5b4fb345cf6f9377404b09ecdb4b04bac59ae6f610396376de4cc7cd2769344"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/mirror.json"
+hash = "c1ccece278b9efc4dc8266f7793e7104eaf933175b68ca96184aa6b646e591c0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/mirrorblade.json"
+hash = "329afb0b59d33aede61910e3e7376fa52680fa71d24576f7329c12d0092f9ffe"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/modeldata/mirrorb.json"
+hash = "0027fd4ca02eeea1e0d9ca0e05bab4b0a3ec9052fe514e5edd4a3c9d291f7be4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/modeldata/regulator_negative.json"
+hash = "399d76c5d49a7b1f7eff8573007502deea50eac7f2faac60301b7d5dac780f39"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/modeldata/regulator_positive.json"
+hash = "07612fa8247d3dfb31b2c57d4099ac12b92d77dc708ea0dd67a262b4025253e3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/modeldata/syringe_generic.json"
+hash = "e3aa24e5a1d26372d4720cb8bc57d36a57cbb684563b3bb6b5f22728ab7e8356"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/modeldata/syringe_living.json"
+hash = "d6f31d2eee5ccd48ffa9d9cd3b5d987181d8f11f812b2df35e98183850d8cb38"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/mutagens.json"
+hash = "ca3dc468a633cca658b65e33afcdf1161f9a6da9a047db2740d0c2a3028f0295"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/regulator.json"
+hash = "29f26b26cc6d3a803f6c483686559f2b70e861b7cf666de2cdc0532804a0069f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/rnabackup.json"
+hash = "659d2f37893e604b8a1c42181e8c1d733af924c676299fb2e38a9a0b7fd43279"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/stabilizer.json"
+hash = "a36a396619c8d2dfc5dd8067de04c15da1fe619000f0fafe1fb864f6f48736e0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe.json"
+hash = "e308427940efebb175d848c247eff0aeb873c1efe031087f9550c735789f14be"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_active.json"
+hash = "db14cdc53512e8f8f44de3b1c6a154184f306c18f5e0ecff2d69927dacdca28c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_aquatic.json"
+hash = "e5782e253fd9288eb191f4e89cc4abb65152ce4f7ae417c8a1282dde64a7bfd6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_arthropod.json"
+hash = "da0d72a9e6718ebf42eb18efbbca66b683cf6b143ec449668f5d044467a897c5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_creeper.json"
+hash = "14117a65fabf980e7ccb96cbad75fbe0557d2623ecf8fdb36d71fadf1fc4ad26"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_end.json"
+hash = "dc6da9fbc578d908e2fa91f4ed993eeb5d2b14856f5b4ce9ca6b821ed6e61894"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_living.json"
+hash = "9eac5c01a74aa9f1f573c3580344202c83d5c28ea8ff38228d58b3daf5abb178"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_nether.json"
+hash = "0df7d8e3cd847d0821efb8b6b76343643a3e412e48b26d283b17324572865d7e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_reinforced.json"
+hash = "431b5747e6140f31d6c32d5aac6a42f3b89984771b7b10dfd0d6decc850d38f2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/models/item/syringe_undead.json"
+hash = "c71bf85e0607c8d4d7b03610eb429904ac024e024fb59ac713fdab3f32020968"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/a_hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/a_hexblade_storage_ally.pdn"
+hash = "f228d667f709a8ca305b9715b49ba08603f51c195b1873f4b140e50d746c7bea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/a_hexblade_storage_ally.png"
+hash = "e14615278c1bb8b553db877bc4232c095a7e4da8d711c47ddf079c10b7118a97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/a_hexblade_storage_ally_b.png"
+hash = "351ed2db33298c1afb18ca32c51d1ae7fdcd7f8642f0f1eb51c14f205be7860f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/blindness_bar.png"
+hash = "b60c3656943f5d121866384e017645c670c5b85da2ec79e7e5196a542bfe7813"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_altar.png"
+hash = "d2a644e212fbedbbe817a12559d5094df872179feef4424c2ff4531056310dd4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_bars.png"
+hash = "fdb14d7386bf353ebba4845fc0526a9d2f503f6e61136e77e1f032a65403ed24"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_nostalgia.png"
+hash = "7c81ef35e272865d5fea0654361a749363ad4ae6e20ba40d9f02774d595c02c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_parry.png"
+hash = "0aac60c0e4ccacc3ed7c188f55fd70b3967e1c6e6e6e1cc9a8d8ff540a54f4e7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_risk.png"
+hash = "1abe2272de61dea07fecb058a9899e5b2fdef296dfe6566aff574d721900ce48"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_risk_ally.png"
+hash = "3b8778010cf11e881744c1a1a65cb58aa7be4d418718f6270e2704569aee80d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_rznostalgia.png"
+hash = "2503196486933fcbccc742b13e86371448322e7786b723331cade78ce3f6f15f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycoberry.png"
+hash = "60c52b9fbb1dfa962e93510b2300d29b7a1062e2169f90647803a9c04ac0fc8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycocactus.png"
+hash = "da48da14e192c8fd62eaa586111543d67535ade2b9044c4027c2fc5fc721160b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycochorus.png"
+hash = "80e87020e8104045eee96bd04761e3f956ae369cbb7f2300d90e64cd0655ec18"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycocrimson.png"
+hash = "2759b7e56d2ede750a268d633880c0ec94996a4566a1b7b3d694a32e768319e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycodevolve.png"
+hash = "b851e19a51477aae5217d1ca7dcb27e426a278aa0e739e7c3016191509aff154"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycomoss.png"
+hash = "831f6336dac47238a437d6f411bb5e542172d3293f0335c6237d44274162308f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_brown_bars.png"
+hash = "29893e7fa84d1a3b330e261dc2abf04cc166c6184815663c42dc248f00ff25bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_chorus_bars.png"
+hash = "b0ed0cba53feb020170f670a8692166c104f5b45c7c456756427701d26c15b2f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_crimson_bars.png"
+hash = "0c43959b6cdab95b24f610d78e486df2b2e0aa8ef7a979c59133a762a6e201e2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_desert_bars.png"
+hash = "b32270a301a9bf5288af90c2c7d2c6a4faf4b554582922d3fec57c07670c27fc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_moss_bars.png"
+hash = "b033b9c766aa7110adb6583917993af671aa034ccb45b4dc9f9c2b0508aef012"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_red_bars.png"
+hash = "c749a029051359f64aa7ce7ddbc8c54331783d8ab15b36efc981119b34791a30"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_skulk_bars.png"
+hash = "b7950d82ae86bb6636c37581f65a3b2c090606ac8ebabaf28c3f15085f73a58b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_snow_bars.png"
+hash = "a29243009fd5c721761e2435e195fc9f53fadbeb11cfca11bfc6450b5d66338d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_warped_bars.png"
+hash = "57d57964673dbb5f871a05b431500e36e994d8777bbe1907929d94c6537b0624"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/myconoid_wart_bars.png"
+hash = "1bd30a3dd48d5bc7fbadc22296767a3c15da14b0203e06f94764fa79d7758295"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycosight.png"
+hash = "5786a331948ba749699de5d4d0d7b0557aefd5781e0532c5d7ae75e6ba998eea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycoskulk.png"
+hash = "715168d8bfd1f69c0c9410745e59aa654af389810317b3c5ef3c03b2250ff5cf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycostamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycowarped.png"
+hash = "7b6d56da1da4f4da2ef982fe1133cf1e842ade91ab1857472657c81226718abd"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/mycowart.png"
+hash = "3b8c9555dade7602406a32adf6a9d27d9e258550fdbdedacc33802bed1a1127c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/overlay.png"
+hash = "14029ea3a9f7cf9ac98970bbf74a72acc7230b1e34b6fb4f16c62817695cbfaf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor.png"
+hash = "b923bf9a7e9c4db24fd44a6c81f5a0c68031fa6889a2ab70fbdb413dec7e64d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor_bars.png"
+hash = "df7cf394337a703a5cca3d5a14e1bfb718f58308c6c658e939c6f0ea12bbeb69"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor_broken.png"
+hash = "4fce8c943a55c350b12155a19f3512b0a29f4525836380a00cc5e44be77db96d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor_mirrors.png"
+hash = "c88d8f0b4182de198d0e1c7c3ebe3a155a4bb2ed8a4842d4ae5bb57efaff93c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor_select.png"
+hash = "231110eeae761bbf008449667634ba2e33ed4fd66256a45a61b676eef85f74a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/refractor_trapped_light.png"
+hash = "100d074714adfd1e867155b82bc7fe22b91f7da485c8756d9c5a8aff1046478d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/sand_bar.png"
+hash = "be9c60b3e1a65fc6cfd57f4b4df5284fe285416b4f06c58d1391cd388e3a8c7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/seas_bar.png"
+hash = "96046d42288e3e81429509d4e3416f4e1d220ddf2f9d0ee4793a0f82a2c10bd5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/seething_bar.png"
+hash = "7f6180a6cba2bb2d8b6a73e5d1a2f43f2e3a1d8993c2353aedec6c7dd03b977a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/shroomba.png"
+hash = "d032b936efe54c9054ca33da2ca0e80468099edab132e405b6e91251b9990872"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/sight_bar.png"
+hash = "8b772778a6d083f749496f8189992d42910b0500c0ec662e3ce23f36f13f2c33"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/skies_bar.png"
+hash = "cc00bd7e6efbfc1bb89ad65e72c7b5d4368873ce4765bd7a84170b42888452ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/smiting_bar.png"
+hash = "87b7088e43311737ac16142bb3b650fccb7bc3c8f9866155935caef6fd6a3e92"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/sss_bar.png"
+hash = "b4cd8aa51c010c0074fb2f3a27bcda60b71bdbfab387f493bd37fff1cbe488c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/stomped_bar.png"
+hash = "65881dd822da5109ba14de3580e01b626688661f9c24c3736b4b2a105a26b269"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/sundering_bar.png"
+hash = "42118352f5f7b906df7256e497c1de656ab09848fc7ffec2aab97e2fa1647fab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/temperature.png"
+hash = "28e150d8a1b5a1407c2738e5faef7146e8b8b5c46d449f57f414696e2176ba6c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/temperature_hot.png"
+hash = "e7e12d2ed3bf0a0763583cfb9e02bfa609e17c2a51d375cd1ce4be423241ec80"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/template.png"
+hash = "4e379159372b8550d376685737a7e22cdc16775735c12625c50b1149ad3f57b0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/trueblindness.png"
+hash = "a3d87a864546eb0f1f8fbb5badcf333c32da538c48195c1f61f74cb8b10e72bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/wetness.png"
+hash = "35059022f0814e98547b9296b3a955c3b82b0600071051a4bdf19e5dc3849d5d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/z_mycowart_spelltype.png"
+hash = "3cf6e8b9f213f37a72f0b0dfc368d55564607495c1b5d83cc961502fa39577ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/z_parry_cooldown.png"
+hash = "c169879ce870434550f4b3495f63df9aa9d8f94ed7aba562e7a36910b715df85"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zamethyst_reinforced.png"
+hash = "2f78e090c5c0c195eeaa09918a32926615a8f3a1bae711b5f101f8af902c0a81"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zberry_mounted.png"
+hash = "3e3cf1695ed5a4b584bb47b1a7f5aca8fffa5191fcfd2b25bbbeca7e3725cbe5"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zfungal_healer.png"
+hash = "4616f4667f7bed08572dbfcda487dd3a04443bac78c4b74d8c391500cdb721b6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zred_buff.png"
+hash = "93eda8a9b909de44e5307296a3e4655eadeb995c0050eb1f70d6d6d266031643"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zz_stamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped.png"
+hash = "760a415f4805a8356a82404c47a02211b613ba703f1335a08592c1588d20d923"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_bad.png"
+hash = "2c5aa781d85f378c12baed516388b0f018ef30d7894c91659464f147aada9740"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_bad_hex.png"
+hash = "eadec7a94a6cd5c1ff6268989132ea434d653b0276543573205a5b8714934dd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_bad_sundering.png"
+hash = "c60e1e1c47dcffbbd18767b82c8ad65520a9f17e674f110a948074010da5bdd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_fshield.png"
+hash = "38cf243515acaabeb9f954ea600603631aaa0ee7ad936860a270561e8bb50976"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_gform.png"
+hash = "2bab337c98fa7ba3952c5c02171c0c2a465691cf14abd30ba37938bc1fa0ffaa"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_marmor.png"
+hash = "aea65e5c6a611cd544aff46b9bb6cb3f48f3dc2e7bc112e9aabf605de1d0e964"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_wind.png"
+hash = "2b95c88747a25797367f1a697783e7ad09d560fb06b3d5ab60441014e1aa4fb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/gui/zzz_buff_warped_wings.png"
+hash = "bd36ef76941243c57c522dd7c57e0fa235e0dc030f12785b0e22fd850eafa1a8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/analyzer.png"
+hash = "851e31c52412d1dc67667a96d95b4530c9f1fb08523ee57424eff6ef3f0e627b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/antimutagens.png"
+hash = "b10f52af62e8b286f229d1b07ad7619c0ac87a52169b5aa586feea8b0cd258b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/antimutagentemplate.pdn"
+hash = "b4a302131db6ca52c5a95358867ca3e2720d278b22f7427e8eee862b9646658e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/backuptemplate.pdn"
+hash = "9d89e250ad05fca457166876cc9b95cfcaf77de5d624341a4ae5393be8e0e5b1"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/genelock.png"
+hash = "c4674eea196975b4e15d13f13348cdd983afe1de911d5225766506bdcad5614f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/generaser.png"
+hash = "b6dced8924fe9e7002940547241c597a50a6f7387dc2639389f1f50150ae8d01"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/hexblade.png"
+hash = "86f448b55b696dd4d9c8a874308b45cf1816defe067e55c5b818191022b228bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/hexblade.png.mcmeta"
+hash = "ca12bdb5b731a77a31f1ede28d6d8fa1ab95c35df761bab00d241a0368f3d562"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/mirror.png"
+hash = "32ebaf73d2c5727f885a90170ceaf409ef5c1cceddbe2733b2a6eee5704a9d28"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/mirrorb.png"
+hash = "5e47232982cb178fad88f5de41fc900ed7d858a307780521d2143b84bc31e059"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/mirrorblade.png"
+hash = "43b933b2c004edccd655a700bcd40daf819deaa76cf82a442a24dc2145f8ba16"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/mutagens.png"
+hash = "e768772e68450a64781f1ef53421fb736de0dabd56823dcbd3f5fd1e14b285f0"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/regulator.png"
+hash = "cd4f47aced3f61c7ee871c9c0b60198646be5b7cc51bb51bb27c700bb08c2e20"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/regulator_negative.png"
+hash = "dd60d825b3257aa8641acc8b7ad3a4d292c09e6e9db305f1777c6bb0feed0f2d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/regulator_positive.png"
+hash = "8205e600610f0767b8823e54a30aaab0727f3165364d34b9991e17e7f0998dce"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/rnabackup.png"
+hash = "61afaef7ba6d4f78f8fb05e075de23a5acc2e3536703e98fe4ca4926afc8cbcc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/stabilizer.png"
+hash = "98d77318b5f65fdc76be7ccb6ee7adb8f4f6b245606a5a9aef687f163f540e94"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/stabilizertemplate.pdn"
+hash = "2c8fb15b7c05fefe033dbd7c0cecfe939842d606c6c339afc76247388470a1ba"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe.png"
+hash = "0f6f589a6995844d63cb67fa45f4e163ee942e652b1503b776b242a2679e718d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_active.png"
+hash = "0a9aecab2a6a1c59e3613b0a007c1b67cf7eaa60cbe4a99d491c4ac60957e989"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_aquatic.png"
+hash = "f29aefb320cf67c8b53c0bb731f7ae252a8740a4462ed04e8fb28e62fe5ea78f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_arthropod.png"
+hash = "82d0eaf2dcc180662578ba12652d68c2db9c8c02fc9cdd312be60619fb840b23"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_creeper.png"
+hash = "69618d068e9f4d0f60e6286ca65a37deaa984fb0e3f54fbf59ed5ade01d430d7"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_end.png"
+hash = "7ff8425a8e3fcd58a450f41a0aca9a9f5df327e301c0b3e095f17a578b25b970"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_generic.png"
+hash = "a1a39f89db79d363e72960063d729d4ddf9b65e28d4bfa0f52a00080ac049e97"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_living.png"
+hash = "20d3265ad82747c9cbe09aefb75f426642a4eeb0479b6fd7366b8483d1c8e8eb"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_nether.png"
+hash = "0ad6fc8b1c4d55b94d055438238168c02e6474bec1272d7a29a108c5bc2c4355"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_reinforced.png"
+hash = "224aa883c4851acdcfc8faa056e0073b0582a70ebbef4ab3b28818f2dc7c312c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringe_undead.png"
+hash = "9766ee9b3c8c40776fc9217d02fdd0d54cf5df47041f5a7cc6e147c77de19dcc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/apocalypse_origins/textures/item/syringefull.pdn"
+hash = "647f47f566a276c4087e739b46e190b11970b00c986735204e5d0b176e29f0d6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/amethyst_shard.json"
+hash = "48a9120acb83d6ace79c64d3b784cd0ef0df788f268f4c94a3c1ac4e497be69b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/emerald.json"
+hash = "84aba076e1628b7d423e6f10bcca2103c5809dd1bb87d7475ab49855631affc8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/mushroom_stew.json"
+hash = "7806b246a4e6d43698b36bf2f7f648f91da4ca83720acf1bd13dac1143f8d39b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/attunement_shard.json"
+hash = "f2ff4b7b08f4a8d185685e9e02722290a1a9ecfb5d31c26fd7de237a72a01e55"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/attunement_shard_blue.json"
+hash = "68e67b7204ea4f3f0d5f34dc1c891e2db60a0ccaeac6422a48a3c1d8a90e9ce3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/attunement_shard_orange.json"
+hash = "2fb7df2edd7e5b5d6877492ca6f20d6d823b0064d6192d813b2db21061e8f59e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/blessedstew.json"
+hash = "d246366aa933b9755e816b8ece42045dde740f5c79d6fb15eb9e036f6560c5a2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/fungalhealer.json"
+hash = "d53be3969bd3447dc21632221e3d33709f4180bd9ebdcede01dcf0478aeb231a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/hexblade.json"
+hash = "dd16bd8824cd1039d246625f1107c4089fa581295dadb67110f3223e1ca529af"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/hexhunter.json"
+hash = "acf996fd485c871427333a2d2ce02be929bc60de47aa4bd42361c33ce482f56b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror.json"
+hash = "2e2625dbda63ffc0eaf35034d5cbac0d1c2665e7487cd97f6ca65d3c30fe8e06"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror_blessed.json"
+hash = "bc6a59878eca251653ff089a3e9a01910bca3ca1d2854738d48383902cac79eb"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror_blessed_good.json"
+hash = "ed53ffd618d17649483d233b85e4465073482eebcf4f2f09e73a193cfdf1180c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror_broken.json"
+hash = "16de7283c9d9823c8dea2c7e46f1ac4ab91acbd2b918a24f045ebf721bd99fca"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror_broken_good.json"
+hash = "15ca40818e2f6c3182dbe754f826f6e1a638b97c163454ea6c8ce633560ce704"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/refractor_mirror_good.json"
+hash = "7e63a651f890f0cf27999f142184a47189dac8f088dd88f54f2101165179e4cc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_doltish_active.json"
+hash = "8f3f8c77a743ec11ba844208681989bf0ea60cd32fc0caf9736ef845a4f782b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_doltish_inactive.json"
+hash = "caab67f872086072cac94001b6b1698f73f42d56a0fbe707e068e4fcf5a70237"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_fff_active.json"
+hash = "2da57fd578d4c15b9b9b09199c2c81cdc2797a295757226c80f3b02d7c27155e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_fff_inactive.json"
+hash = "c688d879488d7214b4aead2633aadb02874e03fdb36a013e78459dcb283b6fff"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sagacity.json"
+hash = "9d442d387864c72615d5576d7e5cd9d93a235fd8708095ad42d96c09eaefdc72"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sagacity_active.json"
+hash = "5b60d4b9f0250c7d8687e4537e0ccb61392dd5f46b41acb1a0dc348b70b0c45a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sands.json"
+hash = "e830f7b5156f7a16acee0f8e1565195774ac5f4ea66fbd589190085c15c60024"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_scrying.json"
+hash = "9ff8cb08bc6da6bf67c68196c927f1ce6f24415fc996624ff7aadaeed21050c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_seas.json"
+hash = "6e6ea72dc20465f4127e7d540d7277d01e4f965e37026cb3b0b20692266441e3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_seething.json"
+hash = "3107c7b3740a96b3df9142480d361d55d320bfc661aabb42490aa1a5afff71ce"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sight.json"
+hash = "510a6bbeff9fa430b1c88a780880cb5031ad4ae4f7459d3d76ffaa3f2def1643"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_skies.json"
+hash = "f0e21294b2b636dd445e738bd8a3bcf3f91c07b55ba019e16cc3ceb9d3d7ecb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_smiting.json"
+hash = "7268d47a22b829f90e8c3a34e039e7cce0db835dd24ec86334a7d503f9eac3c3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sss_active.json"
+hash = "7e55fe075da6be464936b9478bd6bbeebc717210d3c6acc051045762547b9117"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sss_inactive.json"
+hash = "7d878e876606af75e1ee6de06493d76786d846c53399f73a444d1b0978cd18ba"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_sundering.json"
+hash = "955913998e551665f5015804de069ca54924c226e1e75ddc545a8b678e595768"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/sigil_unnamed.json"
+hash = "4cd4114e5b86bb7bbbac7f47d914d84939267d09dcb8b7b673f312d259e8c25f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/smallbane.json"
+hash = "a8892cf9cbb1f15542b213fbf09a143bf468d9a60a4837122a7f791c06d04169"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/smallbane2.json"
+hash = "54891e381876445063c49c514d623e67479e93e426c6a9cefdf5ab97890c864c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/sword/spore.json"
+hash = "e27f9b06cf4f616c443109eeda173f792e1c5a354b5ea9441a60b14556c4e931"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/models/item/wooden_sword.json"
+hash = "f288bb19f5f7afc0cd6ab3808c80d9a81672cc0096c0c1c1afbb80c65281b80e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds.json"
+hash = "8069376c356c955fd6d4af9dfb456613004989cb27121dd1eb77e75519ea8b4e"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/beamo.ogg"
+hash = "3fc07c4826e0575747c4d765c8600793518ed4b4a09b18dceda5ba3ed7ea5479"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/beamstart.ogg"
+hash = "502b54b5f790293dc76e3376ae01c86c626e6c09e7eb983d3f0e3a2eb40f4678"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/bonk.ogg"
+hash = "309164a6e915730cca145dc428ca10acc7e4ed0d76a69fbaaa3a00c95cdebaab"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/brrr.ogg"
+hash = "f7e482700d0d504760419284012550813b6ed6c1dd8a890e20b4603762186235"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/click.ogg"
+hash = "3f096991c06d6765e49741bf5512868abc8a3549ed546d41b6fc4310761d642c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/echolocation.ogg"
+hash = "a9483a649580715ba37c28aed4d40bc26432eca47a647e6c27f1cebba30e2f89"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/fwomp.ogg"
+hash = "c58c93183451b9bd93b80337d75cc3d7a7f7805c9773e259a2417bf4553f2084"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/growl.ogg"
+hash = "7e1bcb8e8ca10107b89c66ec8842c58295b106f12ade2a7d8c329d2dc2deb7b3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/recharged.ogg"
+hash = "f42b167f81e78145d033e018a99e0961360eef02891ba195f71d2f71edbc7d0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/sagacity.ogg"
+hash = "1042f40ec0be5cbeb6ce39bcce06cb002e34002ecf7cec277a15f5904930674b"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/scan.ogg"
+hash = "b8f35126bbcdbb73c1dba9f59b546305b7fb44b9da3b9e7c3dacd713be2ca981"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/smite.ogg"
+hash = "4da6559dcce121d87808390f8652d0ba948e577da287edd4c9e6f58841ad72ff"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/sss.ogg"
+hash = "151b74aeaa09c572c818d66e944a588fe689a32607116ececa7bb542a07304d6"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/sounds/ost/stimuse.ogg"
+hash = "8dba509ec663e736db8ba185f00698971a27845d53392f4e7f3ff9670b970831"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/attunement_shard.png"
+hash = "cd4f47aced3f61c7ee871c9c0b60198646be5b7cc51bb51bb27c700bb08c2e20"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/attunement_shard_blue.png"
+hash = "dd60d825b3257aa8641acc8b7ad3a4d292c09e6e9db305f1777c6bb0feed0f2d"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/attunement_shard_orange.png"
+hash = "8205e600610f0767b8823e54a30aaab0727f3165364d34b9991e17e7f0998dce"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/blessedstew.png"
+hash = "2bffd136412d044a329f9593fb31d6f4bdcb35069cd1b08d9e0d37a1c736bd48"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/blessedstew_empty.png"
+hash = "6fd9b9cf3984e0a9aff7b9c02f84ac5c9e6f3adf1f94aa4c9d38ad7a11b2ca2a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/fungalhealer.png"
+hash = "ea930cfc8ced8866353533f0e200f13bbbf8260d5159808771816cb519176549"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/hexblade - template.pdn"
+hash = "86d02f99df885655825e6a30928268e0c38f7f4b1d339d9426253ae73412f51f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/hexblade.png"
+hash = "86f448b55b696dd4d9c8a874308b45cf1816defe067e55c5b818191022b228bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/hexblade.png.mcmeta"
+hash = "ca12bdb5b731a77a31f1ede28d6d8fa1ab95c35df761bab00d241a0368f3d562"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/hexhunter.png"
+hash = "3577ad8de84dee06832d255e7e640b0ff86292e81738d943e464aaca396d9083"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/refractor_blade.png"
+hash = "43b933b2c004edccd655a700bcd40daf819deaa76cf82a442a24dc2145f8ba16"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/refractor_blade_saber.png"
+hash = "ee0b4436562fe7067d9bcc10e94df74d490aee39104188d77eb3f610075b2856"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/refractor_mirror.png"
+hash = "32ebaf73d2c5727f885a90170ceaf409ef5c1cceddbe2733b2a6eee5704a9d28"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/refractor_mirror_blessed.png"
+hash = "081636f17dda986bd0cc860bc7422e66b81414125f800cb819d0a424f9596124"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/refractor_mirror_broken.png"
+hash = "5e47232982cb178fad88f5de41fc900ed7d858a307780521d2143b84bc31e059"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_doltish_active.png"
+hash = "29960a095eb665c7199859f052cde9bc2c2427cefda473a4b01945d46d9372e1"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_doltish_inactive.png"
+hash = "ec8d41b8889189785392402872df0beeb603883a3e68734961a7ccd42fec2e13"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_fff_active.png"
+hash = "d6f49451f6ffabf7fffbbafb5113fd3cf15c6dc8808aa1fb0db25a46736ee571"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_fff_inactive.png"
+hash = "556f9e1d287ccb9433762905d614d5b23f4cc21259311d7990289b8725f93220"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sagacity.png"
+hash = "1bccacc7a96944ea1e8d66c31c1f9a0f5b4698561a4ab957aff7cf10b319fd1a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sagacity_active.png"
+hash = "0d59437318412e13ea118d8f031968ab9565f490e9f841017fbe7e97f7ef7a8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sands.png"
+hash = "5b0e1fe8f09f7f31e8ae6b02a9b9ad7818820a4db4489ac4c4bd75569fc47811"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_scrying.png"
+hash = "18f8e2485b15412084c86fb9d079a219d7d5d64b99a03396a556f910a8561db3"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_seas.png"
+hash = "161e157c86062cf9e4ba630aabf532b35bd916417c13e961fc4cb389051893cc"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_seething.png"
+hash = "bf238dbd076cef5b6b0fa7faa5eecd0a083d15f793277fd535255a89a4729e62"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sight.png"
+hash = "8acb6b45fff0ebc530fe94858baa736008b43c5a854890bf416af9d58e0757ca"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_skies.png"
+hash = "2474bcde791829dbc2cbbaba22c491ca9e8ed9f15724464c3f0bd4b41fe7e510"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_smiting.png"
+hash = "201ca573fc1893a080be3b5b47c15dd4c18a67c4684393f060ef9e20aaff395a"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sss_active.png"
+hash = "d8ad2bf9b2cbb43cb7f506837cee7da206c40ec702a6c1de1f325de38904dbc4"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sss_inactive.png"
+hash = "3bd4b935881a050572490537fc413f0db7eba8d84cc8bb6102218e4348a03278"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_sundering.png"
+hash = "08a32bb87542fe02faab5581a5cecab2c1fd3d9942cb1e66f1fdb956af2c7912"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/sigil_unnamed.png"
+hash = "ac7468767291cbebc36c657536bfff270d0b27af8b8d4c5172683bc54afe414c"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/smallbane.png"
+hash = "967812fcd3f0f38b8408c750215b478042ee5185079ee59ea05a7ed43dc1c80f"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/smallbane2.png"
+hash = "3d92ba4f011c654a3418c00a4e8c4bc4bc11bfedebbe5aba4d0b3157b2fb55ea"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/assets/minecraft/textures/item/spore.png"
+hash = "dd8d00c74ce429421a25e443ce431f2855f6fb25354871d5ef8ff6962352e0d1"
+
+[[files]]
+file = "config/paxi/resourcepacks/hexblade-apocalypse-rp/pack.mcmeta"
+hash = "ae8ab86e653087123aa758c2d98cf041c46d6a711b244297a523cb8effdc9e7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/lang/en_us.json"
+hash = "27090435caf90c81ed45c24ccbbc4da5256162e3cc789264867fcbfc7e36defc"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/a_hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/a_hexblade_storage_ally.pdn"
+hash = "f228d667f709a8ca305b9715b49ba08603f51c195b1873f4b140e50d746c7bea"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/a_hexblade_storage_ally.png"
+hash = "e14615278c1bb8b553db877bc4232c095a7e4da8d711c47ddf079c10b7118a97"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/a_hexblade_storage_ally_b.png"
+hash = "351ed2db33298c1afb18ca32c51d1ae7fdcd7f8642f0f1eb51c14f205be7860f"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/blindness_bar.png"
+hash = "b60c3656943f5d121866384e017645c670c5b85da2ec79e7e5196a542bfe7813"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_altar.png"
+hash = "d2a644e212fbedbbe817a12559d5094df872179feef4424c2ff4531056310dd4"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_bars.png"
+hash = "fdb14d7386bf353ebba4845fc0526a9d2f503f6e61136e77e1f032a65403ed24"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_nostalgia.png"
+hash = "7c81ef35e272865d5fea0654361a749363ad4ae6e20ba40d9f02774d595c02c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_parry.png"
+hash = "0aac60c0e4ccacc3ed7c188f55fd70b3967e1c6e6e6e1cc9a8d8ff540a54f4e7"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_risk.png"
+hash = "1abe2272de61dea07fecb058a9899e5b2fdef296dfe6566aff574d721900ce48"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_risk_ally.png"
+hash = "3b8778010cf11e881744c1a1a65cb58aa7be4d418718f6270e2704569aee80d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_rznostalgia.png"
+hash = "2503196486933fcbccc742b13e86371448322e7786b723331cade78ce3f6f15f"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/hexblade_storage.png"
+hash = "65e7b0d0a8d5cb38f552bdbb9218933d141dafcb74758dc85f4f6365b19dbd7a"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycoberry.png"
+hash = "60c52b9fbb1dfa962e93510b2300d29b7a1062e2169f90647803a9c04ac0fc8f"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycocactus.png"
+hash = "da48da14e192c8fd62eaa586111543d67535ade2b9044c4027c2fc5fc721160b"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycochorus.png"
+hash = "80e87020e8104045eee96bd04761e3f956ae369cbb7f2300d90e64cd0655ec18"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycocrimson.png"
+hash = "2759b7e56d2ede750a268d633880c0ec94996a4566a1b7b3d694a32e768319e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycodevolve.png"
+hash = "b851e19a51477aae5217d1ca7dcb27e426a278aa0e739e7c3016191509aff154"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycomoss.png"
+hash = "831f6336dac47238a437d6f411bb5e542172d3293f0335c6237d44274162308f"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_brown_bars.png"
+hash = "29893e7fa84d1a3b330e261dc2abf04cc166c6184815663c42dc248f00ff25bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_chorus_bars.png"
+hash = "b0ed0cba53feb020170f670a8692166c104f5b45c7c456756427701d26c15b2f"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_crimson_bars.png"
+hash = "0c43959b6cdab95b24f610d78e486df2b2e0aa8ef7a979c59133a762a6e201e2"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_desert_bars.png"
+hash = "b32270a301a9bf5288af90c2c7d2c6a4faf4b554582922d3fec57c07670c27fc"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_moss_bars.png"
+hash = "b033b9c766aa7110adb6583917993af671aa034ccb45b4dc9f9c2b0508aef012"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_red_bars.png"
+hash = "c749a029051359f64aa7ce7ddbc8c54331783d8ab15b36efc981119b34791a30"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_skulk_bars.png"
+hash = "b7950d82ae86bb6636c37581f65a3b2c090606ac8ebabaf28c3f15085f73a58b"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_snow_bars.png"
+hash = "a29243009fd5c721761e2435e195fc9f53fadbeb11cfca11bfc6450b5d66338d"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_warped_bars.png"
+hash = "57d57964673dbb5f871a05b431500e36e994d8777bbe1907929d94c6537b0624"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/myconoid_wart_bars.png"
+hash = "1bd30a3dd48d5bc7fbadc22296767a3c15da14b0203e06f94764fa79d7758295"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycosight.png"
+hash = "5786a331948ba749699de5d4d0d7b0557aefd5781e0532c5d7ae75e6ba998eea"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycoskulk.png"
+hash = "715168d8bfd1f69c0c9410745e59aa654af389810317b3c5ef3c03b2250ff5cf"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycostamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycowarped.png"
+hash = "7b6d56da1da4f4da2ef982fe1133cf1e842ade91ab1857472657c81226718abd"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/mycowart.png"
+hash = "3b8c9555dade7602406a32adf6a9d27d9e258550fdbdedacc33802bed1a1127c"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/overlay.png"
+hash = "14029ea3a9f7cf9ac98970bbf74a72acc7230b1e34b6fb4f16c62817695cbfaf"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor.png"
+hash = "b923bf9a7e9c4db24fd44a6c81f5a0c68031fa6889a2ab70fbdb413dec7e64d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor_bars.png"
+hash = "df7cf394337a703a5cca3d5a14e1bfb718f58308c6c658e939c6f0ea12bbeb69"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor_broken.png"
+hash = "4fce8c943a55c350b12155a19f3512b0a29f4525836380a00cc5e44be77db96d"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor_mirrors.png"
+hash = "c88d8f0b4182de198d0e1c7c3ebe3a155a4bb2ed8a4842d4ae5bb57efaff93c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor_select.png"
+hash = "231110eeae761bbf008449667634ba2e33ed4fd66256a45a61b676eef85f74a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/refractor_trapped_light.png"
+hash = "100d074714adfd1e867155b82bc7fe22b91f7da485c8756d9c5a8aff1046478d"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/sand_bar.png"
+hash = "be9c60b3e1a65fc6cfd57f4b4df5284fe285416b4f06c58d1391cd388e3a8c7c"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/seas_bar.png"
+hash = "96046d42288e3e81429509d4e3416f4e1d220ddf2f9d0ee4793a0f82a2c10bd5"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/seething_bar.png"
+hash = "7f6180a6cba2bb2d8b6a73e5d1a2f43f2e3a1d8993c2353aedec6c7dd03b977a"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/shroomba.png"
+hash = "d032b936efe54c9054ca33da2ca0e80468099edab132e405b6e91251b9990872"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/sight_bar.png"
+hash = "8b772778a6d083f749496f8189992d42910b0500c0ec662e3ce23f36f13f2c33"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/skies_bar.png"
+hash = "cc00bd7e6efbfc1bb89ad65e72c7b5d4368873ce4765bd7a84170b42888452ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/smiting_bar.png"
+hash = "87b7088e43311737ac16142bb3b650fccb7bc3c8f9866155935caef6fd6a3e92"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/sss_bar.png"
+hash = "b4cd8aa51c010c0074fb2f3a27bcda60b71bdbfab387f493bd37fff1cbe488c2"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/stomped_bar.png"
+hash = "65881dd822da5109ba14de3580e01b626688661f9c24c3736b4b2a105a26b269"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/sundering_bar.png"
+hash = "42118352f5f7b906df7256e497c1de656ab09848fc7ffec2aab97e2fa1647fab"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/temperature.png"
+hash = "28e150d8a1b5a1407c2738e5faef7146e8b8b5c46d449f57f414696e2176ba6c"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/temperature_hot.png"
+hash = "e7e12d2ed3bf0a0763583cfb9e02bfa609e17c2a51d375cd1ce4be423241ec80"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/template.png"
+hash = "4e379159372b8550d376685737a7e22cdc16775735c12625c50b1149ad3f57b0"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/trueblindness.png"
+hash = "a3d87a864546eb0f1f8fbb5badcf333c32da538c48195c1f61f74cb8b10e72bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/wetness.png"
+hash = "35059022f0814e98547b9296b3a955c3b82b0600071051a4bdf19e5dc3849d5d"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/z_mycowart_spelltype.png"
+hash = "3cf6e8b9f213f37a72f0b0dfc368d55564607495c1b5d83cc961502fa39577ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/z_parry_cooldown.png"
+hash = "c169879ce870434550f4b3495f63df9aa9d8f94ed7aba562e7a36910b715df85"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zamethyst_reinforced.png"
+hash = "2f78e090c5c0c195eeaa09918a32926615a8f3a1bae711b5f101f8af902c0a81"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zberry_mounted.png"
+hash = "3e3cf1695ed5a4b584bb47b1a7f5aca8fffa5191fcfd2b25bbbeca7e3725cbe5"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zfungal_healer.png"
+hash = "4616f4667f7bed08572dbfcda487dd3a04443bac78c4b74d8c391500cdb721b6"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zred_buff.png"
+hash = "93eda8a9b909de44e5307296a3e4655eadeb995c0050eb1f70d6d6d266031643"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zz_stamina.png"
+hash = "69ce7e1d1cf68c3b85b914c33f252fc7adf5c1abbabf4339ac5e4a172bc50a0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped.png"
+hash = "760a415f4805a8356a82404c47a02211b613ba703f1335a08592c1588d20d923"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_bad.png"
+hash = "2c5aa781d85f378c12baed516388b0f018ef30d7894c91659464f147aada9740"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_bad_hex.png"
+hash = "eadec7a94a6cd5c1ff6268989132ea434d653b0276543573205a5b8714934dd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_bad_sundering.png"
+hash = "c60e1e1c47dcffbbd18767b82c8ad65520a9f17e674f110a948074010da5bdd7"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_fshield.png"
+hash = "38cf243515acaabeb9f954ea600603631aaa0ee7ad936860a270561e8bb50976"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_gform.png"
+hash = "2bab337c98fa7ba3952c5c02171c0c2a465691cf14abd30ba37938bc1fa0ffaa"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_marmor.png"
+hash = "aea65e5c6a611cd544aff46b9bb6cb3f48f3dc2e7bc112e9aabf605de1d0e964"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_wind.png"
+hash = "2b95c88747a25797367f1a697783e7ad09d560fb06b3d5ab60441014e1aa4fb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/assets/mythic/textures/gui/zzz_buff_warped_wings.png"
+hash = "bd36ef76941243c57c522dd7c57e0fa235e0dc030f12785b0e22fd850eafa1a8"
+
+[[files]]
+file = "config/paxi/resourcepacks/phoenix-origin-rp/pack.mcmeta"
+hash = "e0341600d52e335da9e9578f6a476f24783e072cb73b1460b93a26391fa8ce60"
+
+[[files]]
 file = "mods/adventurez.pw.toml"
 hash = "1ff9974ec2f43d1ca32c90cae5fb0159a7b8116c1a8c58a0d8a235e27110c1e6"
 metafile = true
@@ -22,7 +3606,7 @@ metafile = true
 
 [[files]]
 file = "mods/audaki-cart-engine.pw.toml"
-hash = "371d8597476ebe854cd8bc47593395803ded7614cc93dc22a9572566484d8584"
+hash = "8ea88c96b09e4fd7fce9c155e317b87fa001b80fdb7a7c2341d32a77f9383fa6"
 metafile = true
 
 [[files]]
@@ -77,7 +3661,7 @@ metafile = true
 
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
-hash = "b3503cb0b7eae56e27e1d7980882795c0b81f4750ec9b140beb996a9d7c0dfb3"
+hash = "ed7b2daa40f152efc1001ce695ae50dbb7424c3717dc790c0b4640e24d010536"
 metafile = true
 
 [[files]]
@@ -132,12 +3716,12 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "4548d136288d54fe93c2b688e7d45b108e49767b864d6fca29fafc62bde09078"
+hash = "38b464d1a1e7b81f0e1882af270f5fd5c0ba22beef4172cf5bb5e593a15fbe06"
 metafile = true
 
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
-hash = "bd4fe22c4c06d01fad7637910766579a690b686c4f5d7d4abc9f8321ec032e58"
+hash = "9d6563bdd5af413521028802fc9f06ce1e73fb48b5b574626a182be1a1c2af87"
 metafile = true
 
 [[files]]
@@ -177,7 +3761,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "a6b87f63429f4558272ce9d17cac84018c413163ac89aea8547c93856632000b"
+hash = "2308c4114898f491ad43e9bf5f5da618de3e91a96ce276383422eeb368402979"
 metafile = true
 
 [[files]]
@@ -227,7 +3811,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-beekeeper-hut-fabric.pw.toml"
-hash = "6b8c41e9ab052a236295e8f60a6bee22777cf4996e900d4d7e3abbb9af920867"
+hash = "5d788f68d22742b530f3041e8f260586bf103773bc82b6abe977972bffea7ae4"
 metafile = true
 
 [[files]]
@@ -306,13 +3890,18 @@ hash = "87d924c6bd605e2d2dbde7cc46a05de80f892fd002a899c0526f4505a9591c39"
 metafile = true
 
 [[files]]
+file = "mods/identity.pw.toml"
+hash = "89a2dd47f2d4d5da0964bb7e36f733e152ae277e500acc033d66e7fcc0aaaaeb"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "6be56e4af966f5f08148087a7b5ccd5676bcfc203552b8d0a1439e4be5614da5"
 metafile = true
 
 [[files]]
 file = "mods/immersive-structures.pw.toml"
-hash = "f085fada4c6433c9d178de70d6ef47f721298cd66d4cd2fa112bec0232d1d906"
+hash = "6f8cf9dcd396f9b09951c618a391e8f07deedf3ee036b6b91ace57b693bed323"
 metafile = true
 
 [[files]]
@@ -357,7 +3946,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "27df30bb49ab3e71eb57790364d3d01a71ecc7d797730d5c10fae4f8144e16fd"
+hash = "51e8f45f6ae8f42c94404d68ff665fef77a485db913c8d278b69d62e7aa314c2"
 metafile = true
 
 [[files]]
@@ -532,7 +4121,7 @@ metafile = true
 
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
-hash = "dcef73437fec1a74a88df117d55f379860090b4e5dd73d0c19f7874e61cc6bd3"
+hash = "e65b1aac3d42b290ced52456bb0584172fda3617abc9cdfdd6e56b1085409ec8"
 metafile = true
 
 [[files]]
@@ -582,52 +4171,52 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-desert-temples.pw.toml"
-hash = "911d7f5d030bc0990e87e2a3cd113ef059c8229849f131f5957ae275634a9247"
+hash = "acb15a86e9fc93a2648d7f58e612638c9b23a041efe5ca8f129d598bb93b89d8"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
-hash = "e7e2cc03c81bad91f62c77e988a3ac2c198a5c3e9a11ba7a7ca6d8cdc7122a60"
+hash = "c24863f347c820517007158f2769e2018e455b0aad78548eb19c6b8e55ca8d1f"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
-hash = "2cbc1f2cc5af34d0e2688cab02bbb73306ae1e578bc07dc86b57819f1168a3ec"
+hash = "9eca166f7ceba96d7b9dfe34d72be260ab146460328cfb2126562befcf426421"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
-hash = "540d5f43dc1c27980097f1d11609ffa3b863e36910d835c16e51ea10ee40ae8c"
+hash = "3b3cef87cfe790da891bea4490c0ea33a3d78c8a1ca5ab6e48ebbe3bc2663ad8"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
-hash = "ceffda181c95ab0ecbc91e01071d2df27d53117da2ae6453c1f0bb46be0fe4f0"
+hash = "856a5c8f0b155b0ca0118b1916ea9e4debe02836b2518509f68b60f55c38f5b0"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
-hash = "925ed414ce82dd8e694288782a43a9ebaa5eb1752d7ad4e4ce3dd359040402e5"
+hash = "84617b37394d5e272ebdf5a7c5e81acc262a39a572ba7e0b9b591e167ccff097"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
-hash = "6778fcadacf18b05b5acfae80e9249995b27e8531239ddad05ad3bb7e68707c1"
+hash = "4e17ecd514312c18fa69a34a42bb496dab1862d33e733b59e75c492a95dc619b"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
-hash = "3d65c189ea7cc2d893a59cfe2aec5fbd9d82126af34c1582c3b04be43f604fde"
+hash = "1615b11f8b6384ae175ef08438dd1c23074a6feb975848c813166ac47e4e6637"
 metafile = true
 
 [[files]]
 file = "mods/yungs-bridges.pw.toml"
-hash = "ee076e84e2052ccff9ac179298b241fb9f55d82fdef64f2c704d4b37254fe92f"
+hash = "9d8a66ffbe25282b67ca502c14247f3c6b5a8ac144ade406155347deab7a4078"
 metafile = true
 
 [[files]]
 file = "mods/yungs-extras.pw.toml"
-hash = "2a90807ed3a4933463a8fe3590b04a0be73419faa29cd156528a53ab0407282d"
+hash = "58d8142b279f57548a9dc414dfc717907c325c87d63fc0dd0b63c1dfe94d8ff9"
 metafile = true
 
 [[files]]

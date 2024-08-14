@@ -1,6 +1,7 @@
 name = "Enchantment Descriptions"
 filename = "EnchantmentDescriptions-Fabric-1.20.1-17.1.18.jar"
-side = "client"
+# side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/UVtY3ZAC/versions/G4P1MSAp/EnchantmentDescriptions-Fabric-1.20.1-17.1.18.jar"

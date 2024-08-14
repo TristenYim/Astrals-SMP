@@ -1,0 +1,12 @@
+{
+	"name": "Attack Recovery",
+	"description": "Your attacks take slightly longer to recharge.",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "slow attack",
+        "attribute": "minecraft:generic.attack_speed",
+        "value": -0.7,
+        "operation": "addition"
+    }
+}

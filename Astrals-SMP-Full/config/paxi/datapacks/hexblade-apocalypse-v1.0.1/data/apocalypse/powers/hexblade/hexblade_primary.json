@@ -1,0 +1,349 @@
+{
+	"type": "origins:multiple",
+	"critdash":
+	{
+		"type": "origins:resource",
+		"min": 0,
+		"max": 1,
+		"start_value": 0,
+		"hidden": true,
+		"hud_render": {
+			"should_render": false,
+			"bar_index": 1,
+			"sprite_location": "apocalypse:textures/gui/hexblade_parry.png"
+		}
+	},
+	"crit_damage": 
+	{
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0.5
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "apocalypse:hexblade/hexblade_primary_critdash",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"hidden": true
+	},
+	"dash": 
+	{
+		"type": "origins:active_self",
+		"cooldown": 250,
+		"hud_render": {
+			"should_render": true,
+			"bar_index": 1,
+			"sprite_location": "apocalypse:textures/gui/hexblade_parry.png"
+		},
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+				{
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "apocalypse:hexblade/hexblade_resource_storage",
+								"comparison": "<",
+								"compare_to": 999
+							}
+						]
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 1",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 1,
+								"space": "local"
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:levitation 1 1 true",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:invisibility 2 1 true",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "effect give @s minecraft:slow_falling 2 0 true",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+									"permission_level": 4
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 0",
+									"permission_level": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "apocalypse:hexblade/hexblade_resource_storage",
+								"comparison": ">=",
+								"compare_to": 999
+							},
+							{
+								"type": "origins:resource",
+								"resource": "apocalypse:hexblade/hexblade_resource_storage",
+								"comparison": "<",
+								"compare_to": 1999
+							}
+						]
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 1",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 1,
+								"space": "local"
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:levitation 1 1 true",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:invisibility 2 1 true",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "effect give @s minecraft:slow_falling 2 0 true",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+									"permission_level": 4
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 0",
+									"permission_level": 4
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 1,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "resource set @s apocalypse:hexblade/hexblade_primary_dash 84",
+									"permission_level": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:resource",
+								"resource": "apocalypse:hexblade/hexblade_resource_storage",
+								"comparison": ">=",
+								"compare_to": 1999
+							},
+							{
+								"type": "origins:resource",
+								"resource": "apocalypse:hexblade/hexblade_resource_storage",
+								"comparison": "<=",
+								"compare_to": 4000
+							}
+						]
+					},
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 1",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 1,
+								"space": "local"
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:levitation 1 1 true",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "effect give @s minecraft:invisibility 2 1 true",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "effect give @s minecraft:slow_falling 2 0 true",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+									"permission_level": 4
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "resource set @s apocalypse:hexblade/hexblade_primary_critdash 0",
+									"permission_level": 4
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 1,
+								"action": {
+									"type": "origins:execute_command",
+									"command": "resource set @s apocalypse:hexblade/hexblade_primary_dash 126",
+									"permission_level": 4
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		"condition":
+		{
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:or",
+					"conditions":
+					[
+						{
+							"type": "origins:equipped_item",
+							"equipment_slot": "mainhand",
+							"item_condition":
+							{
+								"type": "origins:ingredient",
+								"inverted": false,
+								"ingredient":
+								{
+									"item": "minecraft:wooden_sword"
+								}
+							}
+						},
+						{
+							"type": "origins:equipped_item",
+							"equipment_slot": "offhand",
+							"item_condition":
+							{
+								"type": "origins:ingredient",
+								"inverted": false,
+								"ingredient":
+								{
+									"item": "minecraft:wooden_sword"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+				  "type": "origins:gamemode",
+				  "inverted": true,
+				  "gamemode": "spectator"
+				},
+				{
+					"type": "origins:resource",
+					"comparison": "==",
+					"resource": "apocalypse:hexblade/hexblade_resource_ultimates_ddd",
+					"compare_to": 0
+				}
+			]
+		},
+		"hidden": true,	
+		"key": {
+			"key":"key.origins.primary_active",
+			"continuous": false
+		}
+	},
+	"hidden": true
+}

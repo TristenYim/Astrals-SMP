@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "hybrid-aquatic:nudibranch",
+    "hybrid-aquatic:sea_urchin",
+    "hybrid-aquatic:sea_cucumber",
+    "hybrid-aquatic:starfish"
+  ]
+}

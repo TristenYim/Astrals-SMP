@@ -1,0 +1,40 @@
+{
+    "name": "Fire Body",
+    "description": "Your body is hot to the touch. When a mob or player hits you with a melee attack, it will be set on fire. You set entities on fire with melee attacks.",
+    "type": "origins:multiple",
+
+    "attack_other": {
+        "type": "origins:target_action_on_hit",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "inverted": true
+        },        
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 4
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "mythic:fire_meter",
+            "comparison": ">",
+            "compare_to": 20
+        }
+    },
+    "other_attack": {
+        "type": "origins:attacker_action_when_hit",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "inverted": true
+        },
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 3
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "mythic:fire_meter",
+            "comparison": ">",
+            "compare_to": 20
+        }
+    }
+}

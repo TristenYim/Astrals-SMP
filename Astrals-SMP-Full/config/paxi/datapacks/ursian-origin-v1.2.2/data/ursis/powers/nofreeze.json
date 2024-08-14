@@ -1,0 +1,55 @@
+{
+    "name": "immune_to_freezing",
+	"hidden": "true",
+	"type": "origins:multiple",
+	"no_freezing":
+	{
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "freeze"
+	}
+	},
+	"buoyancy":
+	{
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"y": 0.07
+				},
+				{
+					"type": "origins:gain_air",
+					"value": 20
+				}
+			]
+		},
+		"condition":
+		{
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:in_block",
+					"block_condition": {
+						"type": "origins:block",
+						"block": "minecraft:powder_snow"
+					}
+				},
+				{
+				  "type": "origins:gamemode",
+				  "inverted": true,
+				  "gamemode": "spectator"
+				}
+			]
+		},
+		"interval": 1,
+		"hidden": true
+	},
+	"can_walk_on_powder_snow": {
+		"type": "extraorigins:can_walk_on_powder_snow"
+	  }
+}
+	

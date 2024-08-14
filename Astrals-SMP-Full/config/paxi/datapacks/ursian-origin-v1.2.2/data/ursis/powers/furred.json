@@ -1,0 +1,140 @@
+{
+	"name": "Furred",
+	"description": "You are adapted to frigid enviornments. You are immune to freezing damage, and can walk on powdered snow. However, you are weakened and slowed in warm biomes (nighttime or water may help).",
+	"type": "origins:multiple",
+
+	"heat_weakness_major": {
+		"type" : "origins:stacking_status_effect",
+		"min_stacks" : -20,
+		"max_stacks" : 20,
+		"duration_per_stack": 10,
+		"effects": [
+			{
+				"effect": "minecraft:weakness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": true,
+				"amplifier": 4
+			},
+			{
+				"effect": "minecraft:slowness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": true,
+				"amplifier": 1
+			}
+		],
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": ">=",
+						"compare_to": 1.8
+					}
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": ">=",
+					"compare_to": 0.8,
+					"inverted": true
+				},
+				{
+					"type": "origins:in_block",
+					"block_condition": {
+					  "type": "origins:or",
+					  "conditions": [
+						{
+						  "type": "origins:block",
+						  "block": "minecraft:powder_snow",
+							"inverted": true
+						},
+						{
+						  "type": "origins:offset",
+						  "y": 1,
+						  "condition": {
+							"type": "origins:block",
+							"block": "minecraft:powder_snow",
+							"inverted": true
+						  }
+						}
+					  ]
+					}
+				  }
+			]
+		}
+	},
+	"heat_weakness_minor": {
+		"type" : "origins:stacking_status_effect",
+		"min_stacks" : -80,
+		"max_stacks" : 20,
+		"duration_per_stack": 10,
+		"effects": [
+			{
+				"effect": "minecraft:weakness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": true,
+				"amplifier": 1
+			},
+			{
+				"effect": "minecraft:slowness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": true
+			}
+		],
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": ">=",
+						"compare_to": 0.6
+					}
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": ">=",
+					"compare_to": 0.8,
+					"inverted": true
+				  },
+				  {
+					"type": "origins:in_rain",
+					"inverted": true
+				  },
+				  {
+					"type": "origins:in_block",
+					"block_condition": {
+					  "type": "origins:or",
+					  "conditions": [
+						{
+						  "type": "origins:block",
+						  "block": "minecraft:powder_snow",
+						  "inverted": true
+						},
+						{
+						  "type": "origins:offset",
+						  "y": 1,
+						  "condition": {
+							"type": "origins:block",
+							"block": "minecraft:powder_snow",
+							"inverted": true
+						  }
+						}
+					  ]
+					}
+				  },
+				{
+					"type": "origins:daytime"
+				}
+			]
+		}
+	}
+}

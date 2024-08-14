@@ -1,0 +1,7 @@
+{
+    "name": "End Native",
+	  "description": "Your natural spawn will be in the End.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_end",
+    "biome": "betterend:chorus_forest"
+  }

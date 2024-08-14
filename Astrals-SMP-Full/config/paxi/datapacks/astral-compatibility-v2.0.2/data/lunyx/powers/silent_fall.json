@@ -1,0 +1,5 @@
+{
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:hit_ground",
+    "hidden": true
+}

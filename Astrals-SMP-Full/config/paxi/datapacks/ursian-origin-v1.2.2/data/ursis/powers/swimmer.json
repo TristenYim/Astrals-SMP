@@ -1,0 +1,34 @@
+{
+    "name": "Strong Swimmer",
+    "description": "you can swim faster than humans and hold your breath for longer.",
+    "type":"origins:multiple",
+    "hold_breath": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": 13,
+            "interval": 40
+        },
+        "condition": {
+        "type": "origins:enchantment",
+        "enchantment": "enchancement:amphibious",
+        "comparison": ">=",
+        "compare_to": 1,
+        "inverted": true
+        }
+    },
+    "speed": {
+     "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.015
+        },
+        "condition": {
+        "type": "origins:enchantment",
+        "enchantment": "enchancement:amphibious",
+        "comparison": ">=",
+        "compare_to": 1,
+        "inverted": true
+        }
+    }
+}

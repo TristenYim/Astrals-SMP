@@ -1,0 +1,11 @@
+{
+    "name": "Ravenous",
+    "description": "because of your size, you need to eat more to keep going.",
+    
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Extra exhaustion from large appetite",
+        "value": 0.7,
+        "operation": "multiply_base"
+    }
+}

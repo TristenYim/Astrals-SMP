@@ -1,0 +1,117 @@
+{
+    "hidden": true,
+	"type": "origins:multiple",
+
+	"in_sun": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mythic:fire_meter",
+            "change": 1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:time_of_day",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:time_of_day",
+                    "comparison": "<=",
+                    "compare_to": 12000
+                },
+                {
+                    "type": "origins:exposed_to_sky"
+                }
+            ]
+        }
+	},
+
+    "on_fire": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mythic:fire_meter",
+            "change": 1
+        },
+        "interval": 40,
+        "condition": {
+            "type": "origins:on_fire"
+        }
+	},
+    "in_lava": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mythic:fire_meter",
+            "change": 1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:block",
+                        "block": "minecraft:lava"
+                    },
+                    {
+                        "type": "origins:offset",
+                        "condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:lava"
+                        },
+                        "y": 1
+                    }
+                ]
+            }
+        }
+	},
+
+    "in_rain": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mythic:fire_meter",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:in_rain"
+        }
+    },
+    "in_water": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "mythic:fire_meter",
+            "change": -2
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    },
+                    {
+                        "type": "origins:offset",
+                        "condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:water"
+                        },
+                        "y": 1
+                    }
+                ]
+            }
+        }
+	}
+	
+}

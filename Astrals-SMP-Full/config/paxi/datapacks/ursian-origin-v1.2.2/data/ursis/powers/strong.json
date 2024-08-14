@@ -1,0 +1,14 @@
+{
+	"name": "Bear's Strength",
+	"description": "Your melee attacks do more base damage.",
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"name": "strong",
+		"operation": "addition",
+		"value": 2.0
+	},
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "player"
+	}
+}

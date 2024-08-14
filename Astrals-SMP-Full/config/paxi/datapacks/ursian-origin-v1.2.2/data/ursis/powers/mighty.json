@@ -1,0 +1,13 @@
+{
+	"name": "Mighty",
+	"description": "You are bigger than humans and take reduced knockback.",
+
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "noknock",
+		"attribute": "minecraft:generic.knockback_resistance",
+		"value": 0.8,
+		"operation": "addition"
+
+	}
+}

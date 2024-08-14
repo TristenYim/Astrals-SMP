@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "apocalypse_origins:item/regulator"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "apocalypse_origins:item/modeldata/regulator_negative"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "apocalypse_origins:item/modeldata/regulator_positive"
+        }
+    ]
+}

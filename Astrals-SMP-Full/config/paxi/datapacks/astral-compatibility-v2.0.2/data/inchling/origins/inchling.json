@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "extraorigins:bite_sized",
+    "extraorigins:nimble",
+    "extraorigins:small_appetite",
+    "inchling:sugar_rush",
+    "origins:climbing"
+  ],
+  "icon": "anvil",
+  "order": 1,
+  "impact": 3,
+  "name": "Inchling",
+  "description": "Pint sized little annoying shit"
+}

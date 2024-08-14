@@ -1,0 +1,252 @@
+{
+	"type": "origins:multiple",
+	"desaturated_vision":
+	{
+		"type": "origins:shader",
+		"shader": "minecraft:shaders/post/desaturate.json",
+		"hidden": true
+	},
+	"death_prevention":
+	{
+		"type": "origins:prevent_death",
+		"hidden": true
+	},
+	"slash":
+	{
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "effect give @s minecraft:slowness 1 10 true",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:if_else_list",
+								"actions": [
+									{
+										"condition": {
+											"type": "origins:and",
+											"conditions": [
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": "<",
+													"compare_to": 8
+												}
+											]
+										},
+										"action": {
+											"type": "origins:damage",
+											"amount": 4,
+											"source": {
+												"name": "magic",
+												"bypasses_armor": true
+											}
+										}
+									},
+									{
+										"condition": {
+											"type": "origins:and",
+											"conditions": [
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": ">=",
+													"compare_to": 8
+												},
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": "<",
+													"compare_to": 12
+												}
+											]
+										},
+										"action": {
+											"type": "origins:damage",
+											"amount": 5,
+											"source": {
+												"name": "magic",
+												"bypasses_armor": true
+											}
+										}
+									},
+									{
+										"condition": {
+											"type": "origins:and",
+											"conditions": [
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": ">=",
+													"compare_to": 12
+												},
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": "<",
+													"compare_to": 16
+												}
+											]
+										},
+										"action": {
+											"type": "origins:damage",
+											"amount": 6,
+											"source": {
+												"name": "magic",
+												"bypasses_armor": true
+											}
+										}
+									},
+									{
+										"condition": {
+											"type": "origins:and",
+											"conditions": [
+												{
+													"type": "origins:enchantment",
+													"enchantment": "minecraft:protection",
+													"calculation": "sum",
+													"comparison": ">=",
+													"compare_to": 16
+												}
+											]
+										},
+										"action": {
+											"type": "origins:damage",
+											"amount": 10,
+											"source": {
+												"name": "magic",
+												"bypasses_armor": true
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "playsound minecraft:item.trident.hit master @p[distance=..15] ~ ~ ~ 4 1.2",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @s run particle minecraft:crit ~ ~1 ~ 0 0 0 0.5 8",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "particle minecraft:block redstone_block ~ ~1 ~ .1 .1 .1 1 8",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "effect clear @s minecraft:slowness",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:choice",
+								"actions": [
+									{
+										"element": {
+											"type": "origins:execute_command",
+											"command": "playsound minecraft:item.trident.hit master @p[distance=..15] ~ ~ ~ 4 1.2",
+											"permission_level": 4
+										},
+										"weight": 1
+									},
+									{
+										"element": {
+											"type": "origins:execute_command",
+											"command": "playsound minecraft:item.trident.hit master @p[distance=..15] ~ ~ ~ 4 1.5",
+											"permission_level": 4
+										},
+										"weight": 1
+									},
+									{
+										"element": {
+											"type": "origins:execute_command",
+											"command": "playsound minecraft:item.trident.throw master @p[distance=..15] ~ ~ ~ 4 2",
+											"permission_level": 4
+										},
+										"weight": 1
+									},
+									{
+										"element": {
+											"type": "origins:execute_command",
+											"command": "playsound minecraft:item.trident.throw master @p[distance=..15] ~ ~ ~ 4 1.5",
+											"permission_level": 4
+										},
+										"weight": 1
+									},
+									{
+										"element": {
+											"type": "origins:execute_command",
+											"command": "playsound minecraft:item.trident.throw master @p[distance=..15] ~ ~ ~ 4 1.7",
+											"permission_level": 4
+										},
+										"weight": 1
+									}
+								]
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 2,
+								"action":{
+									"type": "origins:execute_command",
+									"command": "power revoke @s apocalypse:hexblade/hexblade_slash_basic_slash",
+									"permission_level": 4
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		"interval": 13,
+		"hidden": true
+	},
+	"slash_remove":
+	{
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action":{
+						"type": "origins:execute_command",
+						"command": "power revoke @s apocalypse:hexblade/hexblade_slash_basic",
+						"permission_level": 4
+					}
+				}
+			]
+		},
+		"condition": 
+		{
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power",
+					"power": "apocalypse:hexblade/hexblade_slash_basic_slash",
+					"inverted": true
+				}
+			]
+		},
+		"interval": 1,
+		"hidden": true
+	},
+	"hidden": true
+}

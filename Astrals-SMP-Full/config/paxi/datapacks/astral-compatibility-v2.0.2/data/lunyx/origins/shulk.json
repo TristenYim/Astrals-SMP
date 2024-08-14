@@ -1,0 +1,17 @@
+{
+	"powers": [
+        "origins:shulker_inventory",
+        "origins:natural_armor",
+        "origins:strong_arms",
+        "lunyx:strong_arms",
+        "lunyx:strong_arms_speed",
+        "origins:no_shield",
+        "origins:more_exhaustion",
+        "lunyx:end_spawn"
+    ],
+    "icon": "minecraft:shulker_shell",
+    "order": 5,
+    "impact": 1,
+	"name": "Shulk",
+	"description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin."
+}

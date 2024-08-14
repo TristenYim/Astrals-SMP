@@ -1,0 +1,515 @@
+{
+	"type": "origins:multiple",
+	"critdash":
+	{
+		"type": "origins:resource",
+		"min": 0,
+		"max": 1,
+		"start_value": 0,
+		"hidden": true,
+		"hud_render": {
+			"should_render": false,
+			"bar_index": 2,
+			"sprite_location": "apocalypse:textures/gui/hexblade_parry.png"
+		}
+	},
+	"crit_damage": 
+	{
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0.5
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "apocalypse:hexblade/hexblade_primary_b_critdash",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"hidden": true
+	},
+	"dash": 
+	{
+		"type": "origins:active_self",
+		"cooldown": 600,
+		"hud_render": {
+			"should_render": true,
+			"bar_index": 2,
+			"sprite_location": "apocalypse:textures/gui/hexblade_parry.png"
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [ 
+				{
+				  "type": "origins:execute_command",
+				  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+				  "permission_level": 4
+				},
+				{
+				  "type": "origins:execute_command",
+				  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+				  "permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "resource set @s apocalypse:hexblade/hexblade_primary_b_critdash 1",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:add_velocity",
+					"z": 2,
+					"space": "local"
+				},
+				{
+				  "type": "origins:execute_command",
+				  "command": "effect give @s minecraft:levitation 6 1 true",
+				  "permission_level": 4
+				},
+				{
+				  "type": "origins:execute_command",
+				  "command": "effect give @s minecraft:invisibility 6 1 true",
+				  "permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "effect give @s minecraft:slow_falling 6 0 true",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "effect give @s minecraft:speed 6 5 true",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:execute_command",
+						"command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+						"permission_level": 4
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^ ^3 ^-2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 21,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 30,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^ ^3 ^2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 31,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 40,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^-2 ^3 ^ facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 41,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 50,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^2 ^3 ^ facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 51,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 60,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^-2 ^3 ^-2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 61,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 70,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^2 ^3 ^2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 71,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 80,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^2 ^3 ^-2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 81,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 90,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^-2 ^3 ^2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 91,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 100,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:ambient.soul_sand_valley.additions master @a[distance=..10] ~ ~ ~ 4 2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "execute at @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=1..20] run tp @s ^ ^3 ^-2 facing entity @e[tag=victim,tag=!hexblade,sort=nearest,limit=1,distance=..20]",
+								"permission_level": 4
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 101,
+					"action": {
+						"type": "origins:and",
+						"actions": [ 
+							{
+							  "type": "origins:execute_command",
+							  "command": "playsound minecraft:item.trident.throw master @a[distance=..10] ~ ~ ~ 4 1.2",
+							  "permission_level": 4
+							},
+							{
+								"type": "origins:add_velocity",
+								"z": 2,
+								"space": "local"
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 112,
+					"action": {
+						"type": "origins:execute_command",
+						"command": "resource set @s apocalypse:hexblade/hexblade_primary_b_critdash 0",
+						"permission_level": 4
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 112,
+					"action": {
+						"type": "origins:execute_command",
+						"command": "tag @e[distance=..20] remove victim",
+						"permission_level": 4
+					}
+				}
+			]
+		},
+		"condition":
+		{
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:or",
+					"conditions":
+					[
+						{
+							"type": "origins:equipped_item",
+							"equipment_slot": "mainhand",
+							"item_condition":
+							{
+								"type": "origins:ingredient",
+								"inverted": false,
+								"ingredient":
+								{
+									"item": "minecraft:wooden_sword"
+								}
+							}
+						},
+						{
+							"type": "origins:equipped_item",
+							"equipment_slot": "offhand",
+							"item_condition":
+							{
+								"type": "origins:ingredient",
+								"inverted": false,
+								"ingredient":
+								{
+									"item": "minecraft:wooden_sword"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+				  "type": "origins:gamemode",
+				  "inverted": true,
+				  "gamemode": "spectator"
+				},
+				{
+					"type": "origins:resource",
+					"comparison": ">",
+					"resource": "apocalypse:hexblade/hexblade_resource_ultimates_ddd",
+					"compare_to": 0
+				}
+			]
+		},
+		"hidden": true,	
+		"key": {
+			"key":"key.origins.primary_active",
+			"continuous": false
+		}
+	},
+	"hidden": true
+}

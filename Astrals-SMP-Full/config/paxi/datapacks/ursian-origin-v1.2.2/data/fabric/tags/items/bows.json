@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "mcdw:bow_twin_bow",
+        "mcdw:bow_bubble_bow",
+        "mcdw:crossbow_shadow_crossbow",
+        "mcdw:bow_twisting_vine_bow",
+        "mcdw:bow_weeping_vine_bow"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name":"Aqua Affinity",
+    "description":"You can break blocks underwater as you do on land.",
+    "type": "origins:multiple",
+    "underwater": {
+      "type": "origins:modify_break_speed",
+      "modifier": {
+        "operation": "multiply_total",
+        "value": 4
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "enchancement:amphibious",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        ]
+      }
+    },
+    "ungrounded": {
+      "type": "origins:modify_break_speed",
+      "modifier": {
+        "operation": "multiply_total",
+        "value": 4
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+          },
+          {
+            "type": "origins:on_block",
+            "inverted": true
+          }
+        ]
+      }
+    }
+  }

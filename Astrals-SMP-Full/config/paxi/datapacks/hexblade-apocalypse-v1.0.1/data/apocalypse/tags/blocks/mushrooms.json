@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:mycelium",
+		"minecraft:podzol",
+		"minecraft:crimson_nylium",
+		"minecraft:warped_nylium",
+		"minecraft:brown_mushroom_block",
+		"minecraft:red_mushroom_block",
+		"minecraft:mushroom_stem",
+		"minecraft:nether_wart_block",
+		"minecraft:crimson_stem",
+		"minecraft:warped_wart_block",
+		"minecraft:warped_stem",
+		"minecraft:moss_block"
+	]
+}

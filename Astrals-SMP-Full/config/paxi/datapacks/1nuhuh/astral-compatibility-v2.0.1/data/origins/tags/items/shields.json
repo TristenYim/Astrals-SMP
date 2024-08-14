@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "enderitemod:enderite_shield",
+        "mcdw:shield_royal_guard",
+        "mcdw:shield_tower_guard",
+        "mcdw:shield_vanguard"
+    ]
+}

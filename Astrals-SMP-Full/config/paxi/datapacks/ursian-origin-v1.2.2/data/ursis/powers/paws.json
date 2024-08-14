@@ -1,0 +1,30 @@
+{
+	"name": "Big paws",
+	"description": "Your hands are not dexterous enough to weild a bow or crossbow.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:bow"
+            },
+            {
+                "item": "enderitemod:enderite_bow"
+            },                
+            {
+                "tag": "fabric:bows"
+            },
+            {
+                "item": "minecraft:crossbow"
+            },
+            {
+                "item": "enderitemod:enderite_crossbow"
+            },                
+            {
+                "tag": "fabric:crossbows"
+            }
+        ]
+
+    }
+
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Shiny armor",
+	"description": "You can only wear armor that gleams (iron, diamond, ruby), because it's stylish.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "lunyx:shiny"
+        },
+        "inverted": true
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "lunyx:shiny"
+        },
+        "inverted": true
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "lunyx:shiny"
+        },
+        "inverted": true
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "lunyx:shiny"
+        },
+        "inverted": true
+    }
+}

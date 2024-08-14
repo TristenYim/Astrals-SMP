@@ -1,0 +1,11 @@
+{
+    "name": "Golden Food Hoarding",
+    "description": "You love to collect golden food, but you can't bring yourself to eat it.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+        "tag": "lunyx:golden_food"
+        }
+    }
+}

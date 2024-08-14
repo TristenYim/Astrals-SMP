@@ -1,0 +1,20 @@
+{
+	"powers": [
+        "mythic:fire_meter",
+        "mythic:fireball",
+        "mythic:flame",
+        "mythic:flap",
+        "mythic:fire_body",
+        "mythic:primal_source",
+        "mythic:extreme_hydrophobia",
+        "origins:fire_immunity",
+        "origins:fragile",
+        "origins:damage_from_potions",
+        "origins:damage_from_snowballs"
+    ],
+    "icon": "decorative_blocks:brazier",
+    "order": 1,
+    "impact": 2,
+	"name": "Phoenix",
+	"description": "A magical bird with a heart of flames, a phoenix is most comfortable under the sun."
+}

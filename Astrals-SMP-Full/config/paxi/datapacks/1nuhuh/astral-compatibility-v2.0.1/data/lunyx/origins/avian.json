@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:slow_falling",
+        "origins:fresh_air",
+        "origins:like_air",
+        "origins:lay_eggs",
+        "origins:vegetarian",
+        "lunyx:flap",
+        "lunyx:can_flap"
+    ],
+    "icon": {
+        "item": "minecraft:feather"
+    },
+    "order": 0,
+    "impact": 1,
+	"name": "Avian",
+	"description": "You can double jump btw."
+}
