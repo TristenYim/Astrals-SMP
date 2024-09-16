@@ -13,6 +13,10 @@ file = "config/bettercombat/server.json5"
 hash = "8a3ca0cbeb543de63d478c7aaf065c0244a8b5d4face1c0a0124d1d3a1790c12"
 
 [[files]]
+file = "config/betterend/generator.json"
+hash = "f9c1b8ca4624a93c856a16873a335ee08ce03615916c79a25a59bb3c4f8537b7"
+
+[[files]]
 file = "config/enchancement.json"
 hash = "292b8ae543feb37897d69cdeda40fbed281d3610b975301aeaa61a270169db90"
 
