@@ -1,9 +1,23 @@
-{ ... }: 
+{ pkgs, ... }: 
 
 {
     programs = {
         # Lazygit is a git TUI, far improved from the CLI
         lazygit.enable = true;
+
+        vim = {
+            enable = true;
+
+            # Shows a file browser beside the main editor window
+            plugins = [
+                pkgs.vimPlugins.nerdtree
+            ];
+
+            extraConfig = ''
+                nnoremap ; :
+                nnoremap fb <cmd>NERDTreeToggle<CR>
+            '';
+        };
 
         # Zsh as an interactive shell offers many niceties over bash
         zsh = {
@@ -12,11 +26,12 @@
             # Highlights the command that will be completed
             autosuggestion = {
                 enable = true;
-                # strategy = [ "completion" ];
+                strategy = [ "completion" ];
             };
     
             # Allows jumping using shift-tab like in bash
             initExtra = ''
+                prompt walters
                 bindkey "^[[1;5D" backward-word
                 bindkey "^[[1;5C" forward-word
                 bindkey "^H" backward-kill-word
