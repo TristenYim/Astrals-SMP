@@ -6,7 +6,7 @@
 {
     services.minecraft-servers = {
         enable = true;
-        eula = true; # Accepting the EULA is required.
+        eula = true; # Accepting the EULA is required
 
         servers = {
             Astrals-SMP = {

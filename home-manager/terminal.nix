@@ -1,3 +1,5 @@
+# Define configurations for CLI and TUI apps here.
+
 { pkgs, ... }: 
 
 {

@@ -5,26 +5,17 @@
 { pkgs, ... }:
 
 {
-    imports =
-    [
-        ./hardware-configuration.nix
-        ./minecraft-server.nix
-        ./utils.nix
-    ];
-
-    # Bootloader.
+    # Bootloader
     boot.loader.systemd-boot.enable = true;
     boot.loader.efi.canTouchEfiVariables = true;
 
-    networking.hostName = "nixos"; # Define your hostname.
-
-    # Enable networking.
+    # Enable networking
     networking.networkmanager.enable = true;
 
-    # Set your time zone.
+    # Set your time zone
     time.timeZone = "America/Los_Angeles";
 
-    # Select internationalisation properties.
+    # Select internationalisation properties
     i18n.defaultLocale = "en_US.UTF-8";
 
     i18n.extraLocaleSettings = {
@@ -48,25 +39,14 @@
     # Configure console keymap
     console.keyMap = "dvorak";
 
-    # Define a user account. Don't forget to set a password with ‘passwd’.
-    users.users.minecraft-server = {
+    # Define a user account.
+    users.users.starry-sysadmin = {
         isNormalUser = true;
-        initialPassword = "123456";
-        description = "Minecraft Server";
+        initialPassword = "123456"; # Prevents locking yourself out on install. Don't forget to change this!
+        description = "Minecraft Server system administrator";
         extraGroups = [ "networkmanager" "wheel" ];
         shell = pkgs.zsh;
     };
-
-    # List packages installed in system profile.
-    environment.systemPackages = with pkgs; [
-        tmux
-    ];
-
-    # Enables the Zsh interactive shell.
-    programs.zsh.enable = true;
-
-    # Enable the OpenSSH daemon.
-    services.openssh.enable = true;
 
     # This value determines the NixOS release from which the default
     # settings for stateful data, like file locations and database versions

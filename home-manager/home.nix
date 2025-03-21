@@ -1,3 +1,5 @@
+# Define basic home manager settings here.
+
 { pkgs, ... }: 
 
 {
@@ -6,14 +8,16 @@
     ];
 
     home = {
+        # Some useful utilities
         packages = with pkgs; [
             btop
             git
         ];
 
-        username = "minecraft-server";
-        homeDirectory = "/home/minecraft-server";
+        username = "starry-sysadmin";
+        homeDirectory = "/home/starry-sysadmin";
 
+        # Helpful for cding to the config and making rebuild aliases
         sessionVariables = {
             FLAKE = "/etc/nixos";
         };
