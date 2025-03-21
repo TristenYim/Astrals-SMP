@@ -54,12 +54,16 @@
         initialPassword = "123456";
         description = "Minecraft Server";
         extraGroups = [ "networkmanager" "wheel" ];
+        shell = pkgs.zsh;
     };
 
     # List packages installed in system profile.
     environment.systemPackages = with pkgs; [
         tmux
     ];
+
+    # Enables the Zsh interactive shell.
+    programs.zsh.enable = true;
 
     # Enable the OpenSSH daemon.
     services.openssh.enable = true;
