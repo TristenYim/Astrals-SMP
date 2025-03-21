@@ -3,11 +3,11 @@
 
     # Include flakes from the internet
     inputs = {
-        nixpkgs.url = "nixpkgs/nixos-24.05"; # Using a stable version to improve the reliability in a server environment
+        nixpkgs.url = "nixpkgs/nixos-24.11"; # Using a stable version to improve the reliability in a server environment
         home-manager = {
             type = "git";
             url = "https://github.com/nix-community/home-manager";
-            ref = "release-24.05";
+            ref = "release-24.11";
             inputs.nixpkgs.follows = "nixpkgs";
         };
         nix-minecraft = {
