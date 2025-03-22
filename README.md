@@ -32,11 +32,11 @@ This will serve as my personal TODO list and notes until the modpack is in a mor
 
     Make the server automatically restart during the night (to clear memory leaks)
 
-    Startup Script
+    ~~Startup Script~~
 
     Add automatic backups
 
-    Setup tmux in fewer commands
+    ~~Setup tmux in fewer commands~~
 
 ##### NixOS
 
