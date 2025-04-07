@@ -12,17 +12,20 @@
             Astrals-SMP = let
                 modpack = pkgs.fetchPackwizModpack {
                     url = "https://raw.githubusercontent.com/TristenYim/Astrals-SMP/refs/heads/master/Astrals-SMP-Full/pack.toml";
-                    packHash = "sha256-xqMAzEU0Y3Mr/Cc5jo2Tr3HLlA4ZHtsNrtJjjqNWMDo=";
-                    side = "both";
+                    packHash = "COwINVg9h6HR4WFIrRMKXGruqUWsqp/cVSK93DIrrQU=";
                 };
             in {
                 enable = true;
 
                 # Define the server jar version.
-                package = pkgs.fabricServers.fabric-1_20_1.override { loaderVersion = "0.16.0"; };
+                package = pkgs.fabricServers.fabric-1_20_1;
 
                 symlinks = {
                     "mods" = "${modpack}/mods";
+                };
+
+                files = {
+                    "config" = "${modpack}/config";
                 };
 
                 # This option opens up the firewall, allowing users from the local network (or global network if port forwarding is configured) to connect. Be careful!

@@ -4080,7 +4080,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "fe592547ec2aedf1de7add34f747f7845e103de228e2426328e9e60fe93298cc"
+hash = "e40059c75902e97037ad4afd55f7c31fe1b7cab1f33b979c4e30366e9c6f16ad"
 metafile = true
 
 [[files]]
@@ -4115,7 +4115,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "5fa3a100f874ad3d03b674e867105fc7cc7dcf98b5c1c50d7841a25a0dda4607"
+hash = "28de53a77b13a1d58ad39f538d6f014fe004495d7f43b15c74c993d2d49cc933"
 metafile = true
 
 [[files]]
