@@ -3654,11 +3654,6 @@ hash = "bd5f853537d50e0b156f5a5cb4ca557771aa0828ccf46b22b31a3aa549d615ed"
 metafile = true
 
 [[files]]
-file = "mods/bobby.pw.toml"
-hash = "628ca822826f31018f97293b673e09defe9bc46616a7636bbd4a3b51ee4c9949"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "9a9190378ed3f2dcedb262fe971cfb4f1ee2f404f6c68d35970d29d413ed7645"
 metafile = true
@@ -3666,16 +3661,6 @@ metafile = true
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "ed7b2daa40f152efc1001ce695ae50dbb7424c3717dc790c0b4640e24d010536"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "94fbe9655850d99ed2a950e6b59c9cbfabfc21d859c7920c4a8b21101f5981b7"
-metafile = true
-
-[[files]]
-file = "mods/cherished-worlds.pw.toml"
-hash = "bf9a869e30efcecfc9c1e548ea48054a15271d57aa7448346b8e6342d6a37baa"
 metafile = true
 
 [[files]]
@@ -3854,16 +3839,6 @@ hash = "33dfeaeec4730da684884aff3b41b7ff2ed43839239c36c762b3102524ebdce3"
 metafile = true
 
 [[files]]
-file = "mods/glowing-torchflower.pw.toml"
-hash = "76bb947346b88cdbefbeeba8eb23ac1d06a51c09567034968f3b65e704f4ec44"
-metafile = true
-
-[[files]]
-file = "mods/goated.pw.toml"
-hash = "b5c731e02671d10390af0578c5e625b4231bb71595979e6ac776f45a9c159a40"
-metafile = true
-
-[[files]]
 file = "mods/good-ending.pw.toml"
 hash = "4ffca4ca33cea737fcf103803311dd819ec7d9298f140ad551f4b1c4e6dbb439"
 metafile = true
@@ -3931,11 +3906,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "89624530d4111760d413a7123ce83ddf0485d278f9730a13e54746dbbf6601b3"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "65b802e63cc0e8f9fdc30e72e1d1ac53c4d8df2b27d51610944fe36f014495ff"
 metafile = true
 
 [[files]]
@@ -4011,11 +3981,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
 hash = "0a42eb060173bf1994e480d160de17d8a61af01758fc1c6b70f9a42dba75d61b"
-metafile = true
-
-[[files]]
-file = "mods/nears.pw.toml"
-hash = "93c27699d9d3d200520cb535545383612666baaed9943a5f736800c0802f4c7d"
 metafile = true
 
 [[files]]
@@ -4104,11 +4069,6 @@ hash = "245530bdbb5c4127a1286f3722778d71e478194a8dcee89388c8fd247b4a57da"
 metafile = true
 
 [[files]]
-file = "mods/stack-to-nearby-chests.pw.toml"
-hash = "ee9ddc117153a30cdc3b871f05a97010591e16e7ecf4a6aafef73082fc40d728"
-metafile = true
-
-[[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
@@ -4151,11 +4111,6 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "40f1effd2c65b6c6f9a1b5dfd0903c87df02b23da6b57f389f61f361ef86d425"
-metafile = true
-
-[[files]]
-file = "mods/what-are-they-up-to.pw.toml"
-hash = "d9439d9594d8666f09ac0634ee9bbcf82c430de010896f87e7cd44d17a4391d7"
 metafile = true
 
 [[files]]
