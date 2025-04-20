@@ -10,6 +10,8 @@
     inputs = {
         nixpkgs.url = "nixpkgs/nixos-24.11"; # Using a stable version to improve the reliability in a server environment
 
+        # Enables keeping files between reboots
+        impermanence.url = "github:nix-community/impermanence";
 
         # Manages userspace packages and configurations
         home-manager = {
@@ -26,7 +28,7 @@
         };
     };
 
-    outputs = { self, nixpkgs, home-manager, nix-minecraft }: 
+    outputs = { self, nixpkgs, home-manager, impermanence, nix-minecraft}: 
     let
         pkgs = import nixpkgs {
             system = "x86_64-linux";
@@ -44,6 +46,31 @@
                 # Import system configuration
                 ./hosts/mc-server-qemu/configuration.nix
                 nix-minecraft.nixosModules.minecraft-servers
+
+                # Import home-manager configuration
+                home-manager.nixosModules.home-manager {
+                    home-manager = {
+                        useGlobalPkgs = true;
+                        
+                        users.starry-sysadmin.imports = [ ./home-manager/home.nix ];
+                    };
+                }
+            ];
+        };
+
+        nixosConfigurations.astrals-oracle = nixpkgs.lib.nixosSystem {
+            pkgs = import nixpkgs {
+                system = "aarch64-linux";
+                overlays = [ nix-minecraft.overlay ];
+                config.allowUnfree = true;
+            };
+
+            system = "aarch64-linux";
+            modules = [
+                # Import system configuration
+                ./hosts/astrals-oracle/configuration.nix
+                nix-minecraft.nixosModules.minecraft-servers
+                impermanence.nixosModules.impermanence
 
                 # Import home-manager configuration
                 home-manager.nixosModules.home-manager {

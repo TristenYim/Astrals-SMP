@@ -11,7 +11,6 @@
         # Some useful utilities
         packages = with pkgs; [
             btop
-            git
         ];
 
         username = "starry-sysadmin";
@@ -23,5 +22,15 @@
         };
 
         stateVersion = "24.11";
+    };
+
+    # Git configuration
+    programs.git = {
+        enable = true;
+        extraConfig = {
+            "safe" = {
+                directory = "/etc/nixos";
+            };
+        };
     };
 }

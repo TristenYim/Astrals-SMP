@@ -7,7 +7,15 @@
     programs.zsh.enable = true;
 
     # Enable the OpenSSH daemon
-    services.openssh.enable = true;
+    services.openssh = {
+        enable = true;
+
+        # Disable password authentication since passwords are less secure than keys
+        settings = {
+            PasswordAuthentication = false;
+            KbdInteractiveAuthentication = false;
+        };
+    };
 
     # List packages installed in system profile
     environment.systemPackages = with pkgs; [
