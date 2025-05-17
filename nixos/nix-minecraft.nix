@@ -29,7 +29,7 @@
                 };
 
                 # This option opens up the firewall, allowing users from the local network (or global network if port forwarding is configured) to connect. Be careful!
-                # openFirewall = true;
+                openFirewall = true;
             };
         };
     };
