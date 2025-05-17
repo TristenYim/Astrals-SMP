@@ -29,9 +29,9 @@ in
         "/nix" = mkZfsMount "nix";
 
         "/pers" = mkZfsMount "persistent"; # A place for arbitrary persistent data
-
-        "/srv/minecraft" = mkZfsMount "minecraft"; # Where the Minecraft server directories go
     };
+
+    boot.zfs.extraPools = ["worlds"]; # Stores the Minecraft world folders
 
     # Files and directories which should persist between reboots
     environment.persistence."/pers" = {
